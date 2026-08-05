@@ -108,8 +108,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'GitLab CI/CD Pipeline Setup',
+                to: '/docs/Quantique%20Development%20Guidelines/GitLab%20CICD%20Pipeline%20Setup',
               },
             ],
           },
@@ -127,19 +127,6 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
