@@ -17,38 +17,38 @@ This guide is intended for the following users:
 # Stage 1: GitLab Project Setup
 This guide outlines the process of setting up a GitLab CI/CD pipeline, with a focus on automating deployments and streamlining workflows across multiple repositories. Follow these stages to configure your pipelines successfully.
 ## 1.1	Login to the GitLab Server
-1)	Open your web browser and go to your GitLab instance URL. ![](http://localhost:3000/img/CICD1.png)
+1)	Open your web browser and go to your GitLab instance URL. ![](/img/cicd-pipeline-setup/CICD1.png)
 
-2)	Enter your username and password (provided by your organization), then click ‘Sign in.’  ![](http://localhost:3000/img/CICD2.png)
+2)	Enter your username and password (provided by your organization), then click ‘Sign in.’  ![](/img/cicd-pipeline-setup/CICD2.png)
 
-- The GitLab dashboard opens, displaying your workspace overview. ![](http://localhost:3000/img/CICD3.png)
+- The GitLab dashboard opens, displaying your workspace overview. ![](/img/cicd-pipeline-setup/CICD3.png)
 
 ## 1.2	Create a New Group
 
 **Note: -** *This step is optional if you already have an existing group structure. Groups help organize related projects and manage permissions across multiple repositories.*
 
 
-1)	From the left navigation pane, under Your work, click Groups. The Groups page opens. ![](http://localhost:3000/img/CICD4.png)
+1)	From the left navigation pane, under Your work, click Groups. The Groups page opens. ![](/img/cicd-pipeline-setup/CICD4.png)
 
-2)	On the Groups page, click New groups (blue button, upper right). ![](http://localhost:3000/img/CICD5.png)
+2)	On the Groups page, click New groups (blue button, upper right). ![](/img/cicd-pipeline-setup/CICD5.png)
 
-3)	The Create new group page opens. select Create group to begin setting up your group. ![](http://localhost:3000/img/CICD6.png)
+3)	The Create new group page opens. select Create group to begin setting up your group. ![](/img/cicd-pipeline-setup/CICD6.png)
 
-- The Create group page opens. ![](http://localhost:3000/img/CICD7.png) 
+- The Create group page opens. ![](/img/cicd-pipeline-setup/CICD7.png) 
 
-4)	Enter the Group name, the Group URL automatically populates based on the Group name. ![](http://localhost:3000/img/CICD8.png) 
+4)	Enter the Group name, the Group URL automatically populates based on the Group name. ![](/img/cicd-pipeline-setup/CICD8.png) 
 
-5)	Set Visibility level to Private to restrict access to authorized users only. ![](http://localhost:3000/img/CICD9.png)
+5)	Set Visibility level to Private to restrict access to authorized users only. ![](/img/cicd-pipeline-setup/CICD9.png)
 
-6)	Scroll down and select Create group button. ![](http://localhost:3000/img/CICD10.png)
+6)	Scroll down and select Create group button. ![](/img/cicd-pipeline-setup/CICD10.png)
 
-7)	Your new group is created and appears on the Groups page. ![](http://localhost:3000/img/CICD11.png)
+7)	Your new group is created and appears on the Groups page. ![](/img/cicd-pipeline-setup/CICD11.png)
  
-8)	Click the group and then click added subgroup under the group. ![](http://localhost:3000/img/CICD12.png)
+8)	Click the group and then click added subgroup under the group. ![](/img/cicd-pipeline-setup/CICD12.png)
 
-- The subgroup page open, know you can add project from hear also. ![](http://localhost:3000/img/CICD13.png)
+- The subgroup page open, know you can add project from hear also. ![](/img/cicd-pipeline-setup/CICD13.png)
 
-9)	Select the New project button. You are redirected to the Create new project page. ![](http://localhost:3000/img/CICD14.png) 
+9)	Select the New project button. You are redirected to the Create new project page. ![](/img/cicd-pipeline-setup/CICD14.png) 
 
 - To learn how to create a new project, refer from step 3 in the # Create a New Project # procedure.
 

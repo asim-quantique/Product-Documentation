@@ -3,25 +3,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'User Guides',
-    description: 'Complete user manuals for all Quantique products.',
-    link: '/docs/category/user-guides',
-  },
-  {
-    title: 'API Documentation',
-    description: 'REST APIs, authentication and integration guides.',
-    link: '/docs/category/api',
-  },
-  {
-    title: 'Technical Documentation',
-    description: 'Architecture, workflows and technical implementation.',
-    link: '/docs/category/technical',
-  },
-  {
-    title: 'Release Notes',
-    description: 'Latest product updates and release history.',
-    link: '/docs/category/release-notes',
-  },
+  title: 'Q Admin',
+  description:
+    'Complete user guide for navigating and using the Quantique Q Admin Portal.',
+  link: '/docs/q-admin/user-guide',
+},
 ];
 
 export default function HomepageFeatures() {
@@ -30,7 +16,7 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className="row">
           {features.map((item, index) => (
-            <div className="col col--3" key={index}>
+            <div className="col col--4" key={index}>
               <div className={styles.card}>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
