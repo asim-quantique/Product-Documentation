@@ -54,268 +54,365 @@ This guide outlines the process of setting up a GitLab CI/CD pipeline, with a fo
 
 **Result: -** Your group is now created and ready for project setup. 
 
-1.3	Create New Project
-1)	From the left navigation pane, under Your work, click Projects. The Projects page opens. 
+## 1.3	Create New Project
+1)	From the left navigation pane, under Your work, click Projects. The Projects page opens. ![](/img/cicd-pipeline-setup/CICD15.png) 
 
-2)	On the Projects page, click New project (blue button, upper right). 
+2)	On the Projects page, click New project (blue button, upper right).![](/img/cicd-pipeline-setup/CICD16.png) 
 
 
 The Create new project page opens. GitLab offers several options to create a project:
-•	Create a blank project: Start with an empty repository
-•	Create from template: Use predefined project templates
-•	Import project: Import existing projects from external sources (such as GitHub).
+- Create a blank project: Start with an empty repository
+- Create from template: Use predefined project templates
+- Import project: Import existing projects from external sources (such as GitHub).
+![](/img/cicd-pipeline-setup/CICD17.png) 
  
 
-3)	For this guide, select Create blank project. 
+3)	For this guide, select Create blank project. ![](/img/cicd-pipeline-setup/CICD18.png) 
 
-The Create blank project page opens. 
+- The Create blank project page opens.![](/img/cicd-pipeline-setup/CICD19.png) 
 
-4)	Enter the Project name, the Project slug automatically populates based on the project name. 
+4)	Enter the Project name, the Project slug automatically populates based on the project name. ![](/img/cicd-pipeline-setup/CICD20.png)
 
-5)	From the Project URL dropdown menu, select the appropriate group. 
+5)	From the Project URL dropdown menu, select the appropriate group. ![](/img/cicd-pipeline-setup/CICD21.png) 
 
-Note: - Ensure that groups and subgroups are properly structured under the main group section, as they will be reflected in the project URL when creating a group project.
+**Note: -** *Ensure that groups and subgroups are properly structured under the main group section, as they will be reflected in the project URL when creating a group project.*
 
 
-6)	Set Visibility level to Private to restrict access to authorized users only. 
+6)	Set Visibility level to Private to restrict access to authorized users only. ![](/img/cicd-pipeline-setup/CICD22.png)
 
-7)	Under Project configuration, enable. Then click Create project.
-•	☑ Initialize repository with a README
-•	☑ Enable Static Application Security Testing (SAST).
+7)	Under Project configuration, enable. Then click Create project.![](/img/cicd-pipeline-setup/CICD23.png)
+- ☑ Initialize repository with a README
+- ☑ Enable Static Application Security Testing (SAST).
  
 
-Result: - Your GitLab project is now created and ready for CI/CD pipeline setup.
-1.4	Invite Team Members
+**Result: -** *Your GitLab project is now created and ready for CI/CD pipeline setup.*
+
+
+## 1.4	Invite Team Members
 Use the steps below to invite team members to your GitLab project and assign appropriate access levels.
-1)	From the left navigation pane, under Your work, click Projects. The Projects page opens.  
+1)	From the left navigation pane, under Your work, click Projects. The Projects page opens.  ![](/img/cicd-pipeline-setup/CICD24.png)
 
-2)	On the Projects page, select the project and sub project where you want to add team members. 
+2)	On the Projects page, select the project and sub project where you want to add team members. ![](/img/cicd-pipeline-setup/CICD25.png)
 
-The Project repo page opens. 
+- The Project repo page opens. ![](/img/cicd-pipeline-setup/CICD26.png)
 
-Note: - once you enter in the project repo page, the side pane options changes.
+**Note: -** once you enter in the project repo page, the side pane options changes.
 
 
-3)	From the left navigation pane, click Manage, then select Members. 
+3)	From the left navigation pane, click Manage, then select Members. ![](/img/cicd-pipeline-setup/CICD27.png)
 
-4)	The Project members page opens, click the blue Invite member button. 
+4)	The Project members page opens, click the blue Invite member button. ![](/img/cicd-pipeline-setup/CICD28.png) 
 
-The Invite members dialog box opens. 
+- The Invite members dialog box opens. ![](/img/cicd-pipeline-setup/CICD29.png) 
 
-5)	In the Username, name or email address field, enter the member's user name or email address. 
+5)	In the Username, name or email address field, enter the member's user name or email address. ![](/img/cicd-pipeline-setup/CICD30.png)
 
 6)	From the Select maximum role from the dropdown menu, and choose the appropriate permission level:
-•	Guest: View-only access to most project areas
-•	Reporter: Read access to the repository and issues
-•	Developer: Push access to the repository, create issues, and merge requests
-•	Maintainer: Full project access except admin settings
-•	Owner: Complete administrative control
+- **Guest:** View-only access to most project areas
+- **Reporter:** Read access to the repository and issues
+- **Developer:** Push access to the repository, create issues, and merge requests
+- **Maintainer:** Full project access except admin settings
+- **Owner:** Complete administrative control
+![](/img/cicd-pipeline-setup/CICD31.png)
  
 
-7)	From the calendar option, always select the Access expiration date, then click Invite. 
+7)	From the calendar option, always select the Access expiration date, then click Invite. ![](/img/cicd-pipeline-setup/CICD32.png)
 
-Result: - The team member receives an email notification and appears in your project's member list.
+**Result: -** *The team member receives an email notification and appears in your project's member list.*
 
-Stage 2: Initialize the Repository
+# Stage 2: Initialize the Repository
 This stage explains how to prepare your project folder for Git tracking on a remote server. Git helps you manage versions of your project and collaborate with others.
-1.1	Log in to the Remote Server
+## 1.1	Log in to the Remote Server
 1)	Open your preferred web browser
 2)	Navigate to your server’s login page (e.g., WHM/cPanel).
 3)	Enter your username and password to access the server.
-1.2	Open the Terminal
+## 1.2	Open the Terminal
 1)	Once logged in, locate the Terminal tool:
-•	Look for "Terminal" in the search bar.
-•	Or find it under "Advanced Tools" in WHM/cPanel.
+- Look for "Terminal" in the search bar.
+- Or find it under "Advanced Tools" in WHM/cPanel.
 2)	Click to open the terminal.
 
-1.3	Navigate to Your Project Directory
-1)	In the terminal, use the cd command to go to your project folder. Replace /path/to/project with your actual folder path: 
+## 1.3	Navigate to Your Project Directory
+1)	In the terminal, use the cd command to go to your project folder. Replace `/path/to/project` with your actual folder path:
+
+```
 cd /path/to/your/project
+```
 
 2)	Verify you’re in the correct folder by listing files:
-ls  
 
-1.4	Initialize Git
+```
+is
+```
+## 1.4	Initialize Git
 1)	Run this command to turn your project folder into a Git repository:
-git init  
 
-•	This creates a hidden .git folder to track changes.
-1.5	Configure Git (One-Time Setup)
+```
+git init
+```
+- This creates a hidden .git folder to track changes.
+## 1.5	Configure Git (One-Time Setup)
 1)	Set your Git username and email (used for tracking changes):
-git config --global user.name "Your Name"  
-git config --global user.email "your.email@example.com"  
-1.6	Add and Commit Files
-A.	Exclude Unnecessary Files
-1)	Create or edit a .gitignore file to exclude sensitive/unwanted files (e.g., node_modules/, uploads/):
-nano .gitignore  
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+## 1.6	Add and Commit Files
+**A.**	**Exclude Unnecessary Files**
+1)	Create or edit a `.gitignore` file to exclude sensitive/unwanted files (e.g., `node_modules/, uploads/`):
+
+```
+nano .gitignore
+```
 
 2)	Add the following lines (adjust as needed):
-node_modules/  
-vendor/  
-uploads/  
 
-•	Save the file (Ctrl+O, then Ctrl+X in Nano).
+```text
+node_modules/
+vendor/
+uploads/
+```
 
-B.	Stage and Commit Changes
+- Save the file (Ctrl+O, then Ctrl+X in Nano).
+
+**B.**	**Stage and Commit Changes**
 1)	Stage all files for tracking:
+
+```
 git add .
+```
 
 2)	Commit the changes with a descriptive message:
-git commit -m "Initial project setup"  
 
-1.7	Create a Main Branch
+```
+git commit -m "Initial project setup"
+```
+
+## 1.7	Create a Main Branch
 Rename the default branch to main (or master for older repos):
-git branch -M main  
 
-Stage 3: Connect GitLab with the Remote Server
+```
+git branch -M main  
+```
+
+# Stage 3: Connect GitLab with the Remote Server
 This procedure describes how to securely connect your remote server to GitLab using SSH. SSH keys authenticate your server without needing a username and password each time you interact with your GitLab repository.
-1.1	Generate SSH Key Pair on the Remote Server
-To create a public and private key pair:
+
+## 1.1	Generate SSH Key Pair on the Remote Server
+**To create a public and private key pair:**
 1)	Open the terminal on your remote server.
 2)	Run the following command:
+
+```
 ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+```
 
-•	Replace your-email@example.com with the email address associated with your GitLab account.
-3)	When prompted, press Enter to save the key to the default location:
+- Replace `your-email@example.com` with the email address associated with your GitLab account.
+3)	When prompted, press `Enter` to save the key to the default location:
+
+```
 /home/your-username/.ssh/id_rsa
-
+```
 4)	You can optionally set a passphrase. Leave it empty for password-less access and press Enter twice.
 Upon successful completion, two files will be created in your `~/.ssh/` directory:
+
+```
 `id_rsa`: Your private key (keep this file secure and never share it).
 `id_rsa.pub`: Your public key (this is the key you will upload to GitLab).
+```
 
-1.2	Add the Public Key to GitLab
-A.	Copy the Public Key
+## 1.2	Add the Public Key to GitLab
+**A.**	**Copy the Public Key**
 1)	Run the following command to copy the contents of the public key:
+
+```
 devqcrmquantique@45-120-137-128:~]$ cat .ssh/id_rsa.pub
+```
 
 2)	Copy the entire output from the terminal.
 
-B.	Add the Public Key to GitLab
-1)	Open GitLab in your web browser.  
+**B.**	**Add the Public Key to GitLab**
+1)	Open GitLab in your web browser.  ![](/img/cicd-pipeline-setup/CICD33.png)
 
-2)	Sign in to your GitLab account.  
+2)	Sign in to your GitLab account. ![](/img/cicd-pipeline-setup/CICD34.png) 
 
-3)	Click the profile icon (a green circle next to the Plus + icon) in the top-right corner.  
+3)	Click the profile icon (a green circle next to the Plus + icon) in the top-right corner.  ![](/img/cicd-pipeline-setup/CICD35.png)
 
-4)	From the profile menu, choose the Preferences option. This will direct you to your user settings. 
+4)	From the profile menu, choose the Preferences option. This will direct you to your user settings. ![](/img/cicd-pipeline-setup/CICD36.png)
 
-5)	In the left navigation pane, under User Settings, click SSH Keys. 
+5)	In the left navigation pane, under User Settings, click SSH Keys.  ![](/img/cicd-pipeline-setup/CICD37.png)
 
-6)	On the SSH Keys page, click the Add new key button. 
+6)	On the SSH Keys page, click the Add new key button. ![](/img/cicd-pipeline-setup/CICD38.png)
  
-7)	In the Key field, paste the public key content you copied earlier. 
+7)	In the Key field, paste the public key content you copied earlier. ![](/img/cicd-pipeline-setup/CICD39.png)
 
-8)	Enter a title in the Title field. 
+8)	Enter a title in the Title field. ![](/img/cicd-pipeline-setup/CICD40.png)
 
-9)	Set an Expiration date for added security. 
+9)	Set an Expiration date for added security. ![](/img/cicd-pipeline-setup/CICD41.png)
 
-10)	Click the Add key button to complete the process. 
+10)	Click the Add key button to complete the process. ![](/img/cicd-pipeline-setup/CICD42.png)
 
-Result: - A success message will confirm that your key has been added. 
-1.3	Test the SSH Key Connection to GitLab
+**Result: -** *A success message will confirm that your key has been added.*
+
+## 1.3	Test the SSH Key Connection to GitLab
 After adding the SSH key, verify that the connection between your deployment server and GitLab is working.
 1)	Open the terminal on your deployment server.
 2)	Run the following command:
+
+```
 ssh -i /home/posptmf/.ssh/GitlabOnboardTMFKey -T -p 8995 git@gitlab.quantique.ai
+```
 
-•	-i specifies the SSH private key path
-•	-T disables pseudo-terminal allocation
-•	-p 8995 specifies the custom SSH port
-•	git@gitlab.quantique.ai is the GitLab SSH target
+- `-i` specifies the SSH private key path
+- `-T` disables pseudo-terminal allocation
+- `-p 8995` specifies the custom SSH port
+- `git@gitlab.quantique.ai` is the GitLab SSH target
 
-Expected Result: - If everything is set up correctly, you should receive a message like:
+**Expected Result: -** *If everything is set up correctly, you should receive a message like:*
+
+```
 Welcome to GitLab, @your-username!
-This confirms that the SSH key was successfully configured and GitLab recognizes your server.
-Stage 4: Push the Code to GitLab Repository
+```
+
+*This confirms that the SSH key was successfully configured and GitLab recognizes your server.*
+
+# Stage 4: Push the Code to GitLab Repository
 This stage describes how to connect your local Git repository to a GitLab repository using SSH and push your project files to it. Make sure your GitLab SSH key has been configured and tested before proceeding.
-1.1	Get the GitLab Repository URL
-1)	Open your project repository on GitLab in a web browser.  
 
-2)	On the project's overview page, locate the Code button (typically on the right side of the page, above the file list).  
+## 1.1	Get the GitLab Repository URL
+1)	Open your project repository on GitLab in a web browser.  ![](/img/cicd-pipeline-setup/CICD43.png)
 
-3)	Select the Clone with SSH option.  
+2)	On the project's overview page, locate the Code button (typically on the right side of the page, above the file list).  ![](/img/cicd-pipeline-setup/CICD44.png)
+
+3)	Select the Clone with SSH option. ![](/img/cicd-pipeline-setup/CICD44.png) 
+
 Example:
+
+```
 git@gitlab.com:your-namespace/your-project.git
+```
 
-
-1.2	Add the Remote Repository to Your Local Git Project
+## 1.2	Add the Remote Repository to Your Local Git Project
 1)	On your remote server (where your project code is located), open the terminal and run the following command:
-git remote add origin git@gitlab.com:your-namespace/your-project.git
 
-2)	Replace your-namespace/your-project.git with your actual GitLab SSH path.
+```
+git remote add origin git@gitlab.com:your-namespace/your-project.git
+```
+
+2)	Replace `your-namespace/your-project.git` with your actual GitLab SSH path.
 
 3)	To verify that the remote has been added:
+
+```
 git remote -v
+```
 
 You should see output similar to:
+
+```
 origin  git@gitlab.com:your-namespace/your-project.git (fetch)
 origin  git@gitlab.com:your-namespace/your-project.git (push)
+```
  
-1.3	Push Your Code to the GitLab Repository
+##  1.3	Push Your Code to the GitLab Repository
 Finally, push your local code changes to the newly configured remote repository on GitLab.
-1)	From your terminal in the local repository's root directory, execute the following command to push your current branch (e.g., master or main) to the origin remote and set it as the upstream tracking branch.
-git push --set-upstream or`igin master
+1)	From your terminal in the local repository's root directory, execute the following command to push your current branch (e.g., `master` or `main`) to the origin remote and set it as the upstream tracking branch.
 
-•	git push: This command uploads your local changes to the remote repository.
-•	--set-upstream origin master: This option not only pushes your changes but also establishes a tracking relationship between your local master branch and the master branch on the origin remote. This simplifies future git pull and git push commands. If your default branch is main, replace master with main.
+```
+git push --set-upstream or`igin master
+```
+
+- `git push:` This command uploads your local changes to the remote repository.
+- `--set-upstream origin master:` This option not only pushes your changes but also establishes a tracking relationship between your local `master` branch and the `master` branch on the `origin` remote. This simplifies future `git pull` and `git push` commands. If your default branch is `main`, replace `master` with `main`.
 
 2)	Monitor the terminal output for the push process. You should see messages indicating objects being enumerated, compressed, and written to the remote repository.
-•	A successful push will typically end with a message similar to:
+- A successful push will typically end with a message similar to:
+
+```
 remote: To create a merge request for master, visit:
 remote:   https://gitlab.quantique.ai/quantique/qcrm/qcrm_lead/-/merge_requests/new?merge_request%5Bsource_branch%5D=master
    * [new branch] master -> master
+```
 
-Result: -Your code is now successfully pushed to your GitLab repository.
-Stage 5: Set Up the GitLab CI/CD Pipeline
+**Result: -** *Your code is now successfully pushed to your GitLab repository.*
+
+# Stage 5: Set Up the GitLab CI/CD Pipeline
 This procedure explains how to configure GitLab CI/CD to deploy your code to a remote server using SSH. It includes setting secure GitLab variables and preparing the private key for automated deployment.
-1.1	Switch to the Master Branch
+
+## 1.1	Switch to the Master Branch
 1)	Before configuring your pipeline, make sure you’re working from the correct branch.
-•	In the terminal, run:
+- In the terminal, run:
+
+```
 git checkout master
+```
 
-Note: - This ensures your CI/CD configuration applies to the main deployment branch.
+**Note: -** *This ensures your CI/CD configuration applies to the main deployment branch.*
 
-1.2	Add GitLab CI/CD Environment Variables
+
+## 1.2	Add GitLab CI/CD Environment Variables
 To allow your pipeline to connect securely to the remote server, define the following variables in GitLab:
 1)	Navigate to:
+
+```
 GitLab Project → Settings → CI/CD → Variables
+```
 
 2)	Click Add variable for each of the following:
-Variable	Description
-HOST	Domain name or IP address of the remote server
-PORT	SSH port of the remote server (e.g., 22 or custom port)
-USER	Remote server user (⚠️ avoid using root)
-SSH_PK	The Base64-encoded private key of your remote server
 
-Note: - Use the "Protect variable" and "Mask variable" options where appropriate to enhance security.
+| Variable | Description                                                        |
+| -------- | ------------------------------------------------------------------ |
+| `HOST`   | Domain name or IP address of the remote server                     |
+| `PORT`   | SSH port of the remote server (for example, `22` or a custom port) |
+| `USER`   | Remote server user (⚠️ avoid using `root`)                         |
+| `SSH_PK` | Base64-encoded private key of your remote server                   |
 
-1.3	Convert the Private Key to a Base64-Encoded String
+
+**Note: -** *Use the "Protect variable" and "Mask variable" options where appropriate to enhance security.*
+
+## 1.3	Convert the Private Key to a Base64-Encoded String
 GitLab pipelines can break if special characters or line breaks in the SSH private key are not handled correctly. To avoid this, encode the key in Base64.
-A.	Download the Private Key
+
+**A.**	**Download the Private Key**
+
 On your remote server, locate and download the private key file, usually named id_rsa.
 Example:
-scp user@remote-server:/home/user/.ssh/id_rsa .
 
-B.	Convert the Private Key to Base64
+```
+scp user@remote-server:/home/user/.ssh/id_rsa
+```
+
+**B.**	**Convert the Private Key to Base64**
+
 On your local machine, run the following command:
+
+```
 base64 id_rsa > id_rsa_base64.txt
+```
 
-Note: -This will generate a new file called id_rsa_base64.txt that contains your Base64-encoded private key.
+**Note: -** *This will generate a new file called id_rsa_base64.txt that contains your Base64-encoded private key.*
 
-C.	Add to GitLab as SSH_PK
+**C.**	**Add to GitLab as** `SSH_PK`
 1)	Open id_rsa_base64.txt in a text editor.
 2)	Copy the entire Base64 content.
 3)	In your GitLab project:
-•	Go to Settings → CI/CD → Variables
-•	Add a variable with the key SSH_PK
-•	Paste the copied value into the Value field
-1.4	Set Up the Pipeline
+- Go to **Settings** → **CI/CD** → **Variables**
+- Add a variable with the key SSH_PK
+- Paste the copied value into the Value field
+
+## 1.4	Set Up the Pipeline
 To configure your GitLab CI/CD pipeline:
 1)	Navigate to:
-GitLab Project → Build → Pipeline Editor
 
-2)	Create or edit the .gitlab-ci.yml file to define your deployment pipeline. Below is a basic example:
+```
+GitLab Project → Build → Pipeline Editor
+```
+
+2)	Create or edit the `.gitlab-ci.yml` file to define your deployment pipeline. Below is a basic example:
+
+```
 stages:
   - deploy
 
@@ -327,6 +424,7 @@ deploy_to_server:
     - ssh -i id_rsa -p $PORT $USER@$HOST "cd /path/to/project && git pull origin master"
   only:
     - master
+```
 
-Note: - Ensure the SSH connection and repository permissions are properly configured.
+**Note: -** *Ensure the SSH connection and repository permissions are properly configured.*
 

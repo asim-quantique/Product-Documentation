@@ -73,7 +73,8 @@ The **Add Tenant** page appears. On this page, select one of the following categ
 
 4)	Select the option that accurately reflects your business partner's role and click the Next button to proceed.![](/img/products/q-admin/4.png)
 
-> As you progress through the tenant onboarding wizard, you will notice a series of checkboxes next to the main headings: Tenant Details, Contact Person Details, Currency & Region Details, Set User Hierarchy Details, and Configuration Details. These checkboxes serve as a visual indicator of your progress, turning yellow as you successfully complete each section.![](/img/products/q-admin/5.png)
+As you progress through the tenant onboarding wizard, you will notice a series of checkboxes next to the main headings: Tenant Details, Contact Person Details, Currency & Region Details, Set User Hierarchy Details, and Configuration Details. These checkboxes serve as a visual indicator of your progress, turning yellow as you successfully complete each section.
+![](/img/products/q-admin/5.png)
 
 ## 1.2	Entering Tenant Details
 5)	The Tenant Details page requires comprehensive information about the new tenant. Carefully fill in the following fields:![](/img/products/q-admin/6.png)
@@ -92,7 +93,7 @@ The **Add Tenant** page appears. On this page, select one of the following categ
 
 6)	After entering all the required details and uploading the documents, click **Next**.![](/img/products/q-admin/7.png)
 
-**Note: -** *On Document Uploads, the maximum file size for uploaded documents (PAN Card and GSTIN) is 4 MB. Supported file extensions include .jpeg, .jpg, and .pdf.*
+> **Note: -** *On Document Uploads, the maximum file size for uploaded documents (PAN Card and GSTIN) is 4 MB. Supported file extensions include .jpeg, .jpg, and .pdf.*
 
 This action will open the Contact Person Details page.
 ![](/img/products/q-admin/8.png)
