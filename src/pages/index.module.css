@@ -212,3 +212,15 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Documentation availability */
+.comingSoon {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #666;
+  background: #f1f1f1;
+}

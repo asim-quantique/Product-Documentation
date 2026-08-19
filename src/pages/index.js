@@ -11,43 +11,62 @@ const products = [
     title: 'Claims Management Solution',
     description:
       'Documentation for claims management products, workflows, and business processes.',
-    link: '/docs/claims-management-solution',
+    available: false,
+  },
+  {
+    title: 'DMS 360',
+    description:
+      'Documentation for DMS 360 features, workflows, and operations.',
+    available: false,
+  },
+  {
+    title: 'Extended Warranty',
+    description:
+      'Documentation for Extended Warranty processes, workflows, and operations.',
+    available: false,
+  },
+  {
+    title: 'Insurance Prediction Model',
+    description:
+      'Documentation for insurance prediction models, capabilities, and processes.',
+    available: false,
   },
   {
     title: 'Insure 360',
     description:
       'User guides, workflows, and technical documentation for Insure 360.',
-    link: '/docs/insure-360',
+    available: false,
   },
   {
     title: 'InsurTech CRM 360',
     description:
       'Documentation for CRM workflows, features, configuration, and operations.',
-    link: '/docs/insurtech-crm-360',
+    available: false,
   },
   {
     title: 'NBFC Collab Model',
     description:
       'Documentation for NBFC collaboration workflows, processes, and integrations.',
-    link: '/docs/nbfc-collab-model',
+    available: false,
   },
   {
     title: 'Q Fleet',
     description:
       'Documentation for Q Fleet capabilities, functionality, and workflows.',
-    link: '/docs/q-fleet',
+    available: false,
   },
   {
     title: 'Q Admin',
     description:
       'Complete documentation for navigating and using the Quantique Q Admin Portal.',
-    link: '/docs/q-admin',
+    link: '/docs/q-admin/user-guide',
+    available: true,
   },
   {
     title: 'Transit Secure',
     description:
       'Documentation for Transit Secure features, workflows, and operations.',
-    link: '/docs/transit-secure',
+    available: false,
   },
 ];
 
@@ -90,7 +109,7 @@ function HomepageHeader() {
                 'button--lg',
                 styles.secondaryButton
               )}
-              to="/docs"
+              to="/docs/q-admin/user-guide"
             >
               Browse All Documentation
             </Link>
@@ -102,7 +121,7 @@ function HomepageHeader() {
   );
 }
 
-function ProductCard({ title, description, link }) {
+function ProductCard({ title, description, link, available }) {
   return (
     <div className={styles.productCard}>
 
@@ -116,12 +135,18 @@ function ProductCard({ title, description, link }) {
         </p>
       </div>
 
-      <Link
-        className={styles.productLink}
-        to={link}
-      >
-        View Documentation →
-      </Link>
+      {available ? (
+        <Link
+          className={styles.productLink}
+          to={link}
+        >
+          View Documentation →
+        </Link>
+      ) : (
+        <span className={styles.comingSoon}>
+          Documentation Coming Soon
+        </span>
+      )}
 
     </div>
   );
@@ -165,6 +190,7 @@ export default function Home() {
                   title={product.title}
                   description={product.description}
                   link={product.link}
+                  available={product.available}
                 />
               ))}
 
