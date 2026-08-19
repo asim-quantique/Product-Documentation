@@ -550,491 +550,449 @@ Use this option to complete the payment through a bank transfer.
  
  
 2) The system displays:
-- Account number 
-- IFSC code
-- Beneficiary name
-- Amount to be paid
-
+- **Account number** 
+- **IFSC code**
+- **Beneficiary name**
+- **Amount to be paid**
 ![](/img/products/q-fleet/image59.png)
  
 
- 
 3) Select Copy to copy the account details.
+![](/img/products/q-fleet/image60.png)
  
  
-Complete the Transfer 
+**Complete the Transfer**
+
 4) Pay using one of the following methods: 
-• Visit your bank branch and submit the challan 
-• Transfer the amount using NEFT, RTGS, or IMPS 
+- Visit your bank branch and submit the challan 
+- Transfer the amount using NEFT, RTGS, or IMPS 
+![](/img/products/q-fleet/image61.png)
  
 
  
-Important Instruction 
-5) Transfer the exact amount shown. Do not round off the amount.
+**Important Instruction**
+
+5) Transfer the exact amount shown. Do not round off the amount.![](/img/products/q-fleet/image62.png)
  
  
-Download Challan 
-6) Select Download Challan for bank submission or reference.
+**Download Challan** 
+
+6) Select Download Challan for bank submission or reference.![](/img/products/q-fleet/image63.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 45 | 126 
- 
-4. Buy Policy Page 
+# 4. Buy Policy Page 
+
 To start the policy purchase process: 
+
 1) Select Buy Policy.
+![](/img/products/q-fleet/image64.png)
  
  
 2) The Select Insurance Product page opens.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 46 | 126 
- 
+![](/img/products/q-fleet/image65.png)
+
+
 3) View available products: Group Motor, Group Health (Coming Soon), Group Travel 
-(Coming Soon).
+(Coming Soon).![](/img/products/q-fleet/image66.png)
  
  
-4) Select Group Motor. 
+4) Select Group Motor. ![](/img/products/q-fleet/image67.png)
  
  
+- The Select Plan Type page opens. ![](/img/products/q-fleet/image68.png)
+
  
-Capability and Functionality_V1.0                                                                          Page 47 | 126 
+# 5. Group Motor Plan Selection 
+## 5.1 Select Your Plan Type 
+When the Group Motor detail entry page opens, choose your customer type:
+
+- New Customer: Select this option if you are purchasing a policy for the first time. 
+
+- Existing Customer: Select this option if you already have a policy with us.![](/img/products/q-fleet/image69.png)
  
-The Select Plan Type page opens.
- 
- 
-5. Group Motor Plan Selection 
-5.1 Select Your Plan Type 
-When the Group Motor detail entry page opens, choose your customer type: 
-• New Customer: Select this option if you are purchasing a policy for the first time. 
-• Existing Customer: Select this option if you already have a policy with us. 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 48 | 126 
- 
-5.1.1 For Existing Customers 
-If you select Existing Customer, complete these steps: 
-1) A dropdown menu and search bar appear.
+### 5.1.1 For Existing Customers 
+If you select Existing Customer, complete these steps:
+
+1) A dropdown menu and search bar appear.![](/img/products/q-fleet/image70.png)
  
  
-2) From the dropdown, select email or phone number.
+2) From the dropdown, select email or phone number.![](/img/products/q-fleet/image71.png)
+
+ 
+3) Enter your email or phone number in the search bar.![](/img/products/q-fleet/image72.png)
  
  
+4) Select Search.![](/img/products/q-fleet/image73.png)
  
-Capability and Functionality_V1.0                                                                          Page 49 | 126 
- 
-3) Enter your email or phone number in the search bar.
- 
- 
-4) Select Search.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 50 | 126 
  
 5) The system automatically fetches and fills in the available details, such as: 
-• Company Details 
+
+- Company Details ![](/img/products/q-fleet/image74.png)
  
  
-• Authorized Signatory Contact Details 
+- Authorized Signatory Contact Details ![](/img/products/q-fleet/image75.png)
  
  
-5.1.2 For New Customers 
-If you select New Customer, complete these steps: 
+### 5.1.2 For New Customers 
+If you select New Customer, complete these steps:
+
 1) Select the New Customer option. 
 2) Manually enter the required details in the provided fields. 
 3) Continue with the remaining steps to complete the process. 
-5.2 Company Information 
-5.2.3 Enter Company Details 
-If the New Customer option is selected, provide the following company details: 
-• Salutation: Select the appropriate salutation for the authorized representative (e.g., 
-Mr., Ms., Mrs., Dr.) 
-• Company Name: Enter the registered legal name of the company as per official 
-records 
-• Address Line 1: Provide the primary address details such as building name/number, 
-street name, or locality 
-• Address Line 2: Enter additional address information, if applicable (e.g., floor number, 
-landmark, or area). 
-• Pincode: Enter the valid postal code of the company’s location 
-• City and State: The city and state fields will be automatically populated based on the 
-entered pincode to ensure accuracy and consistency 
-Note: - City and State fields populate automatically after you enter the pincode. 
-P a ge 51 | 126 
-Capability and Functionality_V1.0                                                                          
-5.3 Authorized Signatory Contact Details 
+
+## 5.2 Company Information 
+### 5.2.3 Enter Company Details 
+If the New Customer option is selected, provide the following company details:
+
+- **Salutation:** Select the appropriate salutation for the authorized representative (e.g., Mr., Ms., Mrs., Dr.) 
+- **Company Name:** Enter the registered legal name of the company as per official records 
+- **Address Line 1:** Provide the primary address details such as building name/number, street name, or locality 
+- **Address Line 2:** Enter additional address information, if applicable (e.g., floor number, landmark, or area). 
+- **Pincode:** Enter the valid postal code of the company’s location 
+- **City and State:** The city and state fields will be automatically populated based on the entered pincode to ensure accuracy and consistency![](/img/products/q-fleet/image76.png) 
+
+**Note: -** *City and State fields populate automatically after you enter the pincode.* 
+
+## 5.3 Authorized Signatory Contact Details 
 Enter the contact information for the authorized signatory: 
-• Salutation: Select the appropriate title 
-• First Name: Enter the signatory’s first name. 
-• Middle Name (optional): Enter if applicable. 
-• Last Name: Enter the signatory’s last name. 
-• Mobile Number: Enter a valid contact number. 
-• Email Address: Enter a valid email ID for communication. 
-Note: - The authorized signatory acknowledges that the vehicles are not used as rent
-a-car, taxis, limousines, or leasing vehicles. 
-5.4 Add Vehicle Details 
+- **Salutation:** Select the appropriate title 
+- **First Name:** Enter the signatory’s first name. 
+- **Middle Name (optional):** Enter if applicable. 
+- **Last Name:** Enter the signatory’s last name. 
+- **Mobile Number:** Enter a valid contact number. 
+- **Email Address:** Enter a valid email ID for communication.
+![](/img/products/q-fleet/image77.png) 
+
+**Note: -** *The authorized signatory acknowledges that the vehicles are not used as rent a-car, taxis, limousines, or leasing vehicles.*
+
+## 5.4 Add Vehicle Details 
 The system provides two methods for adding vehicle details: 
-• Manual Addition: Use this option to add a small number of vehicles manually 
-• Upload via CSV: Use this option to upload multiple vehicle details in bulk 
-Note: -  
-• If you select 1 to 5 vehicles, both Manual Addition and Upload via CSV 
-options are available. 
-• If you select 6 or more vehicles, only the Upload via CSV option is available. 
-P a ge 52 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 53 | 126 
- 
- 
- 
-5.4.1 Manual Addition 
+
+- **Manual Addition:** Use this option to add a small number of vehicles manually 
+- **Upload via CSV:** Use this option to upload multiple vehicle details in bulk 
+
+**Note: -**  
+- *If you select 1 to 5 vehicles, both Manual Addition and Upload via CSV 
+options are available.*
+- *If you select 6 or more vehicles, only the Upload via CSV option is available.* ![](/img/products/q-fleet/image78.png) 
+
+### 5.4.1 Manual Addition 
 Use this option to manually enter vehicle details: 
-1) Select Manual Addition.
+1) Select Manual Addition. ![](/img/products/q-fleet/image79.png) 
+
+- The Fleet Overview section appears.![](/img/products/q-fleet/image80.png) 
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 54 | 126 
- 
-The Fleet Overview section appears.
- 
- 
-Fleet Overview 
-Specify Number of Vehicles 
+**Fleet Overview**
+
+**Specify Number of Vehicles** 
+
 The system accommodates fleets of varying sizes through flexible selection options: 
-• Select from predefined options for 1 to 5 vehicles. 
-• Select 6 or more vehicles for larger fleet additions (for example, up to 25 vehicles). 
+
+- Select from predefined options for 1 to 5 vehicles. 
+- Select 6 or more vehicles for larger fleet additions (for example, up to 25 vehicles). ![](/img/products/q-fleet/image81.png)
  
  
-Note: - If you select 6 or more vehicles, the system displays an additional field 
-where you can enter the exact number of vehicles, such as 15 or 25. 
+**Note: -** *If you select 6 or more vehicles, the system displays an additional field where you can enter the exact number of vehicles, such as 15 or 25.* 
+
  
-Capability and Functionality_V1.0                                                                          Page 55 | 126 
- 
-Enter the total number of vehicles.
+- Enter the total number of vehicles.![](/img/products/q-fleet/image82.png)
  
  
-Note: - If you enter more than 25 vehicles in the total number of vehicles field, the 
-Manual Addition option is no longer available. The system displays only the Upload 
-via CSV option for bulk upload. 
+**Note: -** *If you enter more than 25 vehicles in the total number of vehicles field, the Manual Addition option is no longer available. The system displays only the Upload via CSV option for bulk upload.*
  
  
-2) Select Next.
+2) Select Next.![](/img/products/q-fleet/image83.png)
   
+
+ 
+- The How would you like to add the data? page opens.  
+- This page displays two options for entering vehicle information. ![](/img/products/q-fleet/image84.png)
  
  
-Capability and Functionality_V1.0                                                                          Page 56 | 126 
- 
-The How would you like to add the data? page opens.  
-This page displays two options for entering vehicle information. 
- 
- 
-Choose Your Data Entry Method 
+**Choose Your Data Entry Method** 
+
 Select one of the following methods: 
-Option 1: Auto-Fetch via API 
-The system automatically retrieves vehicle details from the VAHAN database using the 
-vehicle registration number. This option eliminates manual data entry for make, model, 
-fuel type, and other vehicle specifications. 
+
+**Option 1: Auto-Fetch via API** 
+
+- The system automatically retrieves vehicle details from the VAHAN database using the vehicle registration number. This option eliminates manual data entry for make, model, fuel type, and other vehicle specifications. 
  
-Option 2: Enter Details Manually 
-You enter all vehicle information manually. This option provides complete control over 
-the data entered.
+**Option 2: Enter Details Manually** 
+
+- You enter all vehicle information manually. This option provides complete control over the data entered.![](/img/products/q-fleet/image85.png)
  
- 
-Option 1: Auto-Fetch via API 
+**Option 1: Auto-Fetch via API**
+
 To fetch vehicle details automatically: 
 1. Select Auto-Fetch via API. 
 2. Go to the Upload & Review Vehicle Information section. 
 3. Enter the Vehicle Registration Number (for example, MH01AB1234). 
 4. Choose whether to add optional coverage: 
-• Select Yes to include add-ons 
-• Select No to continue without add-ons 
+    - Select Yes to include add-ons 
+    - Select No to continue without add-ons 
 5. Repeat these steps for each vehicle in your fleet. 
 6. Review the auto-populated vehicle details. 
 7. Select Next to continue. 
-The Review Vehicle Information page opens. 
+- The Review Vehicle Information page opens. 
 8. Review all vehicle details. 
 9. Select Submit. 
-Option 2: Enter Details Manually 
+
+**Option 2: Enter Details Manually** 
+
 Use this option to enter all vehicle details manually. 
-Step 1: Select Manual Entry 
-• Select Enter Details Manually. 
-P a ge 57 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 58 | 126 
- 
-• Enter or confirm your fleet size. 
+
+**Step 1: Select Manual Entry**
+
+- Select Enter Details Manually. ![](/img/products/q-fleet/image86.png)
+
+- Enter or confirm your fleet size. ![](/img/products/q-fleet/image87.png)
  
  
 Vehicle sections appear (Vehicle 1, Vehicle 2, and so on). 
  
-Step 2: Enter Policy Type Information 
+**Step 2: Enter Policy Type Information**
+
 For each vehicle, enter the following details: 
-• Vehicle Type (required): select the vehicle type form dropdown. 
-• Policy Type: Select one option  
-o New 
-o Renew 
-• Policy Holder (required): Select Comprehensive or Third Party from the dropdown 
+- **Vehicle Type** (required): select the vehicle type form dropdown. 
+- **Policy Type:** Select one option  
+    - New 
+    - Renew 
+- **Policy Holder** (required): Select Comprehensive or Third Party from the dropdown![](/img/products/q-fleet/image88.png)
  
  
-Step 3: Enter Vehicle Info 
+**Step 3: Enter Vehicle Info**
+
 Enter all required vehicle details: 
-• Make: Enter the vehicle manufacturer. 
-• Model: Enter the vehicle model name or number. 
-• Fuel Type: Select the fuel type used by the vehicle. 
-• Variant: Enter the vehicle variant or configuration. 
-• Engine Number: Enter the engine identification number. 
-• Chassis Number: Enter the chassis identification number. 
-• Manufacturing Month and Year: Select the month and year of manufacture. 
-• Registration Date: Select the vehicle registration date. 
-• Is School Bus: 
-o Yes 
-o No 
-• Registration Type: 
-o Normal Series 
-o Bharat Series 
-Normal Series 
+- **Make:** Enter the vehicle manufacturer. 
+- **Model:** Enter the vehicle model name or number. 
+- **Fuel Type:** Select the fuel type used by the vehicle. 
+- **Variant:** Enter the vehicle variant or configuration. 
+- **Engine Number:** Enter the engine identification number. 
+- **Chassis Number:** Enter the chassis identification number. 
+- **Manufacturing Month and Year:** Select the month and year of manufacture. 
+- **Registration Date:** Select the vehicle registration date. 
+- **Is School Bus:** 
+    - Yes 
+    - No 
+
+    ![](/img/products/q-fleet/image89.png)
+
+- Registration Type: 
+    - **Normal Series** 
+    - **Bharat Series**
+ 
+**Normal Series**
+
 Select Normal Series for standard vehicle registration. 
 When you select Normal Series, the following fields appear: 
-• RTO  
-• Registration Code  
-• Registration Number  
-P a ge 59 | 126 
-Capability and Functionality_V1.0                                                                          
+- **RTO**  
+- **Registration Code**  
+- **Registration Number**  
  
-Capability and Functionality_V1.0                                                                          Page 60 | 126 
- 
-Enter the required vehicle registration details in the available fields. 
+- Enter the required vehicle registration details in the available fields. ![](/img/products/q-fleet/image90.png) 
  
  
- 
-Bharat Series 
+**Bharat Series** 
+
 Select Bharat Series for Bharat (BH) series vehicle registration. 
 When you select Bharat Series, the following fields appear: 
-• Year  
-• Registration Number  
-• Registration Code  
-Enter the required Bharat Series registration details in the available fields. 
+- **Year**  
+- **Registration Number**  
+- **Registration Code**  
+    - Enter the required Bharat Series registration details in the available fields.  
+
+    ![](/img/products/q-fleet/image91.png)
  
  
-Step 4: Previous Policy Details 
-Note: - The Previous Policy Details section appears only if the Policy Type is set to 
-Renew. If Policy Type is set to New, this section is not displayed 
+**Step 4: Previous Policy Details**
+
+    - **Note: -** *The Previous Policy Details section appears only if the Policy Type is set to Renew. If Policy Type is set to New, this section is not displayed* 
+    ![](/img/products/q-fleet/image92.png)
+
+- **Change in Ownership in the Last 1 Year?** 
+    - Select whether the vehicle ownership changed within the last 1 year. 
+    - Select **Yes** or **No.** 
  
-Capability and Functionality_V1.0                                                                          Page 61 | 126 
+    ![](/img/products/q-fleet/image93.png)
+
  
+- If No is selected:
+    - Select whether a claim was filed in the last year (**Yes** or **No**). 
  
+    - Select whether the previous policy had Nil Depreciation (**Yes** or **No**). 
+    
+    ![](/img/products/q-fleet/image94.png)
+
+- **Do You Have a Previous Policy?** 
+    - Select whether the vehicle has an existing or previous insurance policy. Select **Yes** or **No**. 
+
+    ![](/img/products/q-fleet/image95.png)
  
-• Change in Ownership in the Last 1 Year?  
-Select whether the vehicle ownership changed within the last 1 year. 
-Select Yes or No. 
+
  
- 
-If No is selected: 
-o Select whether a claim was filed in the last year (Yes or No). 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 62 | 126 
- 
-o Select whether the previous policy had Nil Depreciation (Yes or No). 
- 
- 
-• Do You Have a Previous Policy? 
-Select whether the vehicle has an existing or previous insurance policy 
-Select Yes or No. 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 63 | 126 
- 
-• Previous Policy Sub Type  
-Select one of the following options: 
-o Third Party 
-o Comprehensive 
-o Package Comprehensive 
- 
- 
-• Previous Policy Number  
-Enter the previous policy number. 
+- **Previous Policy Sub Type** 
+
+    Select one of the following options: 
+    - **Third Party** 
+    - **Comprehensive** 
+    - **Package Comprehensive** 
+
+    ![](/img/products/q-fleet/image96.png)
  
  
+- **Previous Policy Number**  
+    Enter the previous policy number. 
+
+    ![](/img/products/q-fleet/image97.png)
  
-Capability and Functionality_V1.0                                                                          Page 64 | 126 
+
  
-• Previous Policy Expiry Date 
-Select the expiry date using the calendar. 
- 
- 
-• Have you filed a claim in the last year? 
-Select whether any insurance claim was filed during the previous policy period.  
-Select Yes or No 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 65 | 126 
- 
-If you select No, the NCB (%) field appears 
+- **Previous Policy Expiry Date**
+
+    Select the expiry date using the calendar. 
+    ![](/img/products/q-fleet/image98.png)
  
  
-• NCB (%) 
-Select the applicable No Claim Bonus (NCB) percentage from the dropdown list. 
-Example: 20%, 25%, or 50% 
+- **Have you filed a claim in the last year?** 
+
+    Select whether any insurance claim was filed during the previous policy period.  
+
+    Select **Yes** or **No** 
+
+    ![](/img/products/q-fleet/image99.png)
+
+
+    If you select No, the NCB (%) field appears 
+    ![](/img/products/q-fleet/image100.png)
  
  
+- **NCB (%)** 
+
+    Select the applicable No Claim Bonus (NCB) percentage from the dropdown list. 
+
+    Example: 20%, 25%, or 50% 
+
+    ![](/img/products/q-fleet/image101.png)
  
-Capability and Functionality_V1.0                                                                          Page 66 | 126 
+
  
-• Previous Policy Nil Dep? 
-Select whether the previous policy included Nil Depreciation coverage. 
-Select Yes or No 
- 
- 
-Step 5: Manage Multiple Vehicles 
-• Select Add Another Vehicle to include more vehicles. 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 67 | 126 
- 
-• Select the delete icon to remove a vehicle. 
- 
- 
-• Expand or collapse vehicle sections to organize the screen. 
+- **Previous Policy Nil Dep?**
+
+    Select whether the previous policy included Nil Depreciation coverage.
+
+    Select **Yes** or **No** 
+
+     ![](/img/products/q-fleet/image102.png)
  
  
+**Step 5: Manage Multiple Vehicles**
+
+- Select Add Another Vehicle to include more vehicles. ![](/img/products/q-fleet/image103.png)
+
+- Select the delete icon to remove a vehicle. ![](/img/products/q-fleet/image104.png)
  
-Capability and Functionality_V1.0                                                                          Page 68 | 126 
  
-Step 6: Continue 
+- Expand or collapse vehicle sections to organize the screen. ![](/img/products/q-fleet/image105.png)
+ 
+
+**Step 6: Continue**
+
 After entering details for all vehicles: 
-• Select Next to proceed. 
-• Select Back to return to the previous screen. 
+
+- Select **Next** to proceed. 
+- Select **Back** to return to the previous screen. 
+![](/img/products/q-fleet/image106.png)
  
  
-Uploaded Fleet Status Page 
-After selecting Next, the Uploaded Fleet Status page opens. 
-The page displays all manually entered fleet vehicle records in a table format. 
+**Uploaded Fleet Status Page**
+- After selecting Next, the Uploaded Fleet Status page opens.
+- The page displays all manually entered fleet vehicle records in a table format. 
+        ![](/img/products/q-fleet/image107.png)
  
+
  
- 
-Capability and Functionality_V1.0                                                                          Page 69 | 126 
- 
-Review Fleet Records 
+**Review Fleet Records** 
 1. View all vehicle records in the table. 
-2. Select the Eye icon under the Actions column.  
+2. Select the Eye icon under the Actions column. 
+![](/img/products/q-fleet/image108.png) 
+ The Fleet Request page opens. 
  
-The Fleet Request page opens. 
+**Validate Fleet Records page**
+
+- Review all vehicle records carefully. 
+- Ensure all records display the status as: **Valid**
+![](/img/products/q-fleet/image109.png)
  
-Validate Fleet Records page 
-Review all vehicle records carefully. 
-Ensure all records display the status as: Valid  
- 
- 
-Continue to Get Quotes 
-After adding all vehicle details: 
-Ensure all records show a Valid status, and then select Get Quotes 
- 
-Capability and Functionality_V1.0                                                                          Page 70 | 126 
- 
- 
- 
-5.4.2 Upload via CSV 
+**Continue to Get Quotes**
+- After adding all vehicle details:
+- Ensure all records show a Valid status, and then select Get Quotes 
+![](/img/products/q-fleet/image110.png) 
+
+
+### 5.4.2 Upload via CSV 
 Use this method to upload vehicle details in bulk. This option is recommended for large fleets. 
  
-Upload Process 
-1) Select Upload via CSV.
+**Upload Process** 
+1) Select Upload via CSV. ![](/img/products/q-fleet/image111.png) 
+ 
+2) Select Next. ![](/img/products/q-fleet/image112.png) 
+ 
+3) The Upload Vehicle Data page opens. ![](/img/products/q-fleet/image113.png) 
+ 
+4) Select the (Here) text next to Download sample format to get the CSV template. ![](/img/products/q-fleet/image114.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 71 | 126 
- 
-2) Select Next.
+5) Open the downloaded CSV file and enter your vehicle details under the provided headings. ![](/img/products/q-fleet/image115.png)
  
  
-3) The Upload Vehicle Data page opens.
+**CSV File Structure** 
+
+The CSV template includes the following column headings:
+
+| Column Name | Description |
+|---|---|
+| **Make** | Name of the vehicle manufacturer. |
+| **Model** | Model name or number of the vehicle. |
+| **Variant** | Specific variant or configuration of the vehicle. |
+| **Fuel Type** | Type of fuel used by the vehicle (for example, Petrol or Diesel). |
+| **Engine Number** | Unique identification number of the vehicle engine. |
+| **Chassis Number** | Unique identification number of the vehicle chassis. |
+| **Proposer Type** | Type of proposer applying for the policy (individual or company). |
+| **CC** | Engine capacity of the vehicle in cubic centimetres. |
+| **Carrier Type** | Type of carrier used by the vehicle. |
+| **GVW** | Gross Vehicle Weight of the vehicle. |
+| **Seating Capacity** | Number of passengers the vehicle can carry. |
+| **Body IDV** | Insured Declared Value of the vehicle body. |
+| **Manufacturing Date** | Month and year when the vehicle was manufactured. |
+| **RTO** | Regional Transport Office where the vehicle is registered. |
+| **Registration Number** | Official registration number of the vehicle. |
+| **Registration Code** | Registration series code of the vehicle. |
+| **BH Registration Year** | Year of Bharat (BH) registration, if applicable. |
+| **BH Registration Number** | Bharat (BH) registration number of the vehicle. |
+| **BH Registration Code** | Bharat (BH) registration code of the vehicle. |
+| **Policy Type** | Type of policy selected (New or Renew). |
+| **Policy Sub Type** | Sub-category of the selected policy. |
+| **Vehicle Type** | Category of the vehicle (for example, Bus, Truck). |
+| **Registration Date** | Date on which the vehicle was registered. |
+| **Registration Type** | Registration series type (Normal or Bharat Series). |
+| **Is School Bus** | Indicates whether the vehicle is used as a school bus (Yes or No). |
+| **Change In Ownership** | Indicates whether the vehicle ownership has changed. |
+| **Has Previous Policy** | Indicates whether the vehicle had a previous insurance policy. |
+| **Previous Policy Type** | Type of the previous insurance policy. |
+| **Previous Policy Number** | Policy number of the previous insurance. |
+| **Previous Policy Expiry Date** | Expiry date of the previous policy. |
+| **Claim In Last Year** | Indicates whether a claim was made in the last policy year. |
+| **NCB Percentage** | No Claim Bonus percentage applicable. |
+| **Previous Policy Nil Dep** | Indicates whether Nil Depreciation was included earlier. |
+| **Previous Insurance Company** | Name of the previous insurance provider. |
+
+**Note: -** *The CSV template includes additional columns for policy details, previous policy information, and claims history. Enter data in all applicable columns.*
+
+**Upload the CSV File** 
+1) After you complete the CSV file, click Upload or drag and drop the file into the upload area.  ![](/img/products/q-fleet/image116.png)
  
- 
- 
-Capability and Functionality_V1.0                                                                          Page 72 | 126 
- 
-4) Select the Here text next to Download sample format to get the CSV template.
- 
- 
-5) Open the downloaded CSV file and enter your vehicle details under the provided 
-headings.
- 
- 
-CSV File Structure 
-The CSV template includes the following column headings: 
-Column Name Description 
-Make Name of the vehicle manufacturer. 
-Model Model name or number of the vehicle. 
-Variant Specific variant or configuration of the vehicle. 
-Fuel Type Type of fuel used by the vehicle (for example, Petrol or Diesel). 
-Engine Number Unique identification number of the vehicle engine. 
-Chassis Number Unique identification number of the vehicle chassis. 
-Proposer Type Type of proposer applying for the policy (individual or company). 
-CC Engine capacity of the vehicle in cubic centimetres. 
-Carrier Type Type of carrier used by the vehicle. 
-GVW Gross Vehicle Weight of the vehicle. 
-Seating Capacity Number of passengers the vehicle can carry. 
-Insured Declared Value of the vehicle body. 
-Body IDV 
-Manufacturing Date 
-RTO 
-Registration Number 
-Month and year when the vehicle were manufactured. 
-Regional Transport Office where the vehicle is registered. 
-Official registration number of the vehicle. 
-Registration Code 
-BH Registration Year 
-BH Registration Number 
-Registration series code of the vehicle. 
-Year of Bharat (BH) registration, if applicable. 
-Bharat (BH) registration number of the vehicle. 
-BH Registration Code 
-Policy Type 
-Policy Sub Type 
-Bharat (BH) registration code of the vehicle. 
-Type of policy selected (New or Renew). 
-Sub-category of the selected policy. 
-Vehicle Type 
-Registration Date 
-Registration Type 
-Category of the vehicle (for example, Bus, Truck). 
-Date on which the vehicle was registered. 
-Registration series type (Normal or Bharat Series). 
-Is School Bus 
-Change In Ownership 
-Has Previous Policy 
-Indicates whether the vehicle is used as a school bus (Yes or No). 
-Indicates whether the vehicle ownership has changed. 
-Indicates whether the vehicle had a previous insurance policy. 
-Previous Policy Type 
-Previous Policy Number 
-Previous Policy Expiry Date 
-Type of the previous insurance policy. 
-Policy number of the previous insurance. 
-Expiry date of the previous policy. 
-Claim In Last Year 
-NCB Percentage 
-Previous Policy Nil Dep 
-Indicates whether a claim was made in the last policy year. 
-No Claim Bonus percentage applicable. 
-Indicates whether Nil Depreciation was included earlier. 
-Previous Insurance Company 
-Name of the previous insurance provider. 
-Note: - The CSV template includes additional columns for policy details, previous 
-policy information, and claims history. Enter data in all applicable columns. 
-Upload the CSV File 
-1) After you complete the CSV file, click Upload or drag and drop the file into the upload 
-area. 
-P a ge 73 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 74 | 126 
- 
+
 Upload the CSV File 
 2) After you complete the CSV file, click Upload or drag and drop the file into the upload 
 area. 
