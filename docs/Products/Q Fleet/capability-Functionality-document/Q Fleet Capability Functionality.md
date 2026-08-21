@@ -990,878 +990,864 @@ The CSV template includes the following column headings:
 **Note: -** *The CSV template includes additional columns for policy details, previous policy information, and claims history. Enter data in all applicable columns.*
 
 **Upload the CSV File** 
+
 1) After you complete the CSV file, click Upload or drag and drop the file into the upload area.  ![](/img/products/q-fleet/image116.png)
  
 
-Upload the CSV File 
-2) After you complete the CSV file, click Upload or drag and drop the file into the upload 
-area. 
- 
- 
-3) The system uploads the file and shows the Uploaded Fleet Status page.
- 
- 
-4) A table displays upload details: Vehicle Type, Make, Model, Fuel Type, Variant, Engine 
-Number, Chassis Number, Manufacturing MM-YYYY, RTO, Reg. No., Reg. Code, BH Reg. 
-Year, BH Reg. Number, BH Reg. Code, Policy Type, Policy Sub Type, Tenure, Reg. Date, 
-Reg. Type, Status, Actions. 
- 
-Capability and Functionality_V1.0                                                                          Page 75 | 126 
+3) The system uploads the file and shows the Uploaded Fleet Status page.  ![](/img/products/q-fleet/image117.png)
  
  
  
-Review Uploaded Data 
-5) In the Actions column, select the eye icon next to view the uploaded file records.
+4) A table displays upload details: **Vehicle Type**, **Make**, **Model**, **Fuel Type**, **Variant**, **Engine Number**, **Chassis Number**, **Manufacturing MM-YYYY**, **RTO**, **Reg. No.**, **Reg. Code**, **BH Reg. Year**, **BH Reg. Number**, **BH Reg. Code**, **Policy Type**, **Policy Sub Type**, **Tenure, Reg. Date**, **Reg. Type**, **Status**, **Actions**.  ![](/img/products/q-fleet/image118.png)
+ 
+**Review Uploaded Data** 
+
+5) In the Actions column, select the eye icon next to view the uploaded file records.    ![](/img/products/q-fleet/image119.png)
+
+
+6) The Fleet Request page opens with your fleet request number (for example, FLBNO70742761).   ![](/img/products/q-fleet/image120.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 76 | 126 
- 
-6) The Fleet Request page opens with your fleet request number (for example, 
-FLBNO70742761).
+7) Review the upload summary showing valid and invalid entries.     ![](/img/products/q-fleet/image121.png)
  
  
-7) Review the upload summary showing valid and invalid entries.
- 
- 
-Tip: - You can download valid and invalid entries by selecting the download icon 
-next to each category. 
- 
-Capability and Functionality_V1.0                                                                          Page 77 | 126 
- 
- 
- 
-Manage Uploaded Vehicles 
+**Tip: -** *You can download valid and invalid entries by selecting the download icon next to each category.*
+         ![](/img/products/q-fleet/image122.png)
+
+**Manage Uploaded Vehicles**
+
 The Uploaded Vehicle Summary table displays all vehicle records. Use this table to: 
-• Search for specific vehicles using the Global Search box 
+
+- Search for specific vehicles using the Global Search box ![](/img/products/q-fleet/image123.png)
+
+ 
+- Check vehicle status in the Status column  ![](/img/products/q-fleet/image124.png)
  
  
+- Edit invalid records by selecting the edit icon ![](/img/products/q-fleet/image125.png)
+
+- Make changes and select save  ![](/img/products/q-fleet/image126.png)
  
-Capability and Functionality_V1.0                                                                          Page 78 | 126 
+- Refresh the list by selecting the refresh icon  ![](/img/products/q-fleet/image127.png)
  
-• Check vehicle status in the Status column 
- 
- 
-• Edit invalid records by selecting the edit icon 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 79 | 126 
- 
-• Make changes and select save 
+**Note: -** *Records with Invalid status must be corrected before you can proceed.* 
  
  
-• Refresh the list by selecting the refresh icon 
- 
- 
-Note: - Records with Invalid status must be corrected before you can proceed. 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 80 | 126 
- 
-Navigate Pages 
+**Navigate Pages**
+
 To jump to a specific page in the vehicle list: 
-1) Enter the page number in the page navigation box, and then Select Go.
+
+1) Enter the page number in the page navigation box, and then Select Go. ![](/img/products/q-fleet/image128.png)
  
  
-Continue to Get Quotes 
+**Continue to Get Quotes**
+
 After adding all vehicle details: 
-1) Ensure all records show a Valid status, and then select Get Quotes.
+
+1) Ensure all records show a Valid status, and then select Get Quotes. ![](/img/products/q-fleet/image129.png)
+
+<div style={{marginTop: '40px'}} />
+# 6. Get Quote 
+The Get Quote page displays insurance quotes, allows you to customize coverage, and helps you finalize premiums before purchasing the policy.  ![](/img/products/q-fleet/image130.png)
+
+<div style={{marginTop: '40px'}} />
+## 6.1 Page Sections 
+### 6.1.1 Customer Summary 
+This expandable section displays customer and fleet information. Select the section to view or hide details. 
+![](/img/products/q-fleet/image131.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 81 | 126 
- 
-6. Get Quote 
-The Get Quote page displays insurance quotes, allows you to customize coverage, and helps 
-you finalize premiums before purchasing the policy. 
- 
- 
-6.1 Page Sections 
-6.1.1 Customer Summary 
-This expandable section displays customer and fleet information. Select the section to view 
-or hide details. 
- 
- 
-6.1.2 Available Insurance Companies 
+#### 6.1.2 Available Insurance Companies 
 This section shows: 
-• Number of insurers providing quotes 
+
+- **Number of insurers providing quotes**
+- **Insurance company names** 
+- **Policy validity dates** 
+- **Number of vehicles covered**
+![](/img/products/q-fleet/image132.png) 
  
  
-Capability and Functionality_V1.0                                                                          Page 82 | 126 
+### 6.1.3 Vehicle Quote Table 
+
+Each row represents one vehicle. The table includes:
+
+| Column | Description |
+|---|---|
+| **Vehicle** | Vehicle number (Vehicle 1, Vehicle 2) |
+| **Manufacturer** | Vehicle manufacturer name |
+| **Model** | Vehicle model |
+| **Variant** | Vehicle variant |
+| **Fuel Type** | Diesel or Petrol |
+| **Mfg Year** | Manufacturing year |
+| **Total Premium** | Premium amount for the vehicle |
+| **Custom IDV** | Insured Declared Value |
+
+  ![](/img/products/q-fleet/image133.png)
  
-• Insurance company names 
-• Policy validity dates 
-• Number of vehicles covered 
+<div style={{marginTop: '30px'}} />
+### 6.1.4 Change IDV 
+
+IDV is the current market value of the vehicle used for insurance coverage. It is the maximum amount the insurance company may pay if the vehicle is stolen or completely damaged. 
+The system allows you to change the IDV value within the allowed minimum and maximum range. Changing the IDV value may increase or decrease the premium amount. 
+
+
+**Benefits of Custom IDV** 
+- Adjust vehicle coverage as required  
+- Increase coverage by selecting a higher IDV  
+- Reduce premium by selecting a lower IDV  
+- View the minimum and maximum IDV range before saving 
+
+**Note: -** *A higher IDV usually results in a higher premium amount.*
+
+
+**Change the IDV Value**
+
+To adjust the Insured Declared Value for a vehicle:
+
+1) On the Premium Details page, locate the vehicle record.   ![](/img/products/q-fleet/image134.png)
+
+ 
+2) Select Change IDV.  ![](/img/products/q-fleet/image135.png)
  
  
-6.1.3 Vehicle Quote Table 
-Each row represents one vehicle. The table includes: 
-Column Description 
-Vehicle Vehicle number (Vehicle 1, Vehicle 2) 
-Manufacturer Vehicle manufacturer name 
-Model Vehicle model 
-Variant Vehicle variant 
-Fuel Type Diesel or Petrol 
-Mfg Year Manufacturing year 
-Total Premium Premium amount for the vehicle 
-Custom IDV Insured Declared Value 
- 
- 
-6.1.4 Change IDV 
-IDV is the current market value of the vehicle used for insurance coverage. It is the maximum 
-amount the insurance company may pay if the vehicle is stolen or completely damaged. 
-The system allows you to change the IDV value within the allowed minimum and maximum 
-range. Changing the IDV value may increase or decrease the premium amount. 
-Benefits of Custom IDV 
-• Adjust vehicle coverage as required  
-• Increase coverage by selecting a higher IDV  
-• Reduce premium by selecting a lower IDV  
-• View the minimum and maximum IDV range before saving 
-Note: - A higher IDV usually results in a higher premium amount. 
-Change the IDV Value 
-To adjust the Insured Declared Value for a vehicle: 
-1) On the Premium Details page, locate the vehicle record.
-P a ge 83 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 84 | 126 
- 
-2) Select Change IDV.
- 
- 
-The Set IDV Value pop-up window opens.
+- The Set IDV Value pop-up window opens.  ![](/img/products/q-fleet/image136.png)
  
  
 View IDV Details 
 The pop-up displays the following information: 
-• Insurance company name  
-• Current premium amount  
-• Minimum IDV  
-• Current IDV  
+- **Insurance company name**  
+- **Current premium amount**  
+- **Minimum IDV**  
+- **Current IDV**  
+- **Maximum IDV** 
+ ![](/img/products/q-fleet/image137.png)
  
  
-Capability and Functionality_V1.0                                                                          Page 85 | 126 
- 
-• Maximum IDV 
- 
- 
-Update the IDV Value 
+**Update the IDV Value** 
+
 You can change the IDV value using either of the following methods. 
  
-Option 1: Use the Slider 
-1) Drag the Adjust IDV Value slider left or right.
+**Option 1:** Use the Slider 
+
+1) Drag the Adjust IDV Value slider left or right. ![](/img/products/q-fleet/image138.png)
+ 
+
+2) The system automatically updates the Current IDV value.  ![](/img/products/q-fleet/image139.png)
  
  
  
-Capability and Functionality_V1.0                                                                          Page 86 | 126 
+**Option 2:** Enter Manual Value 
+1) In the Or Enter Manual Value field, enter the required IDV amount manually. ![](/img/products/q-fleet/image140.png)
  
-2) The system automatically updates the Current IDV value. 
- 
- 
-Option 2: Enter Manual Value 
-1) In the Or Enter Manual Value field, enter the required IDV amount manually.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 87 | 126 
- 
-2) Ensure the entered value is within the displayed IDV range.
- 
+
+2) Ensure the entered value is within the displayed IDV range.  ![](/img/products/q-fleet/image141.png)
 Example: Range: ₹7,52,874 – ₹9,20,180 
  
-Save or Cancel Changes 
-1) Select Save IDV to apply the selected IDV value.
+**Save or Cancel Changes** 
+
+1) Select Save IDV to apply the selected IDV value.  ![](/img/products/q-fleet/image142.png)
+
+- The system updates the premium amount based on the selected IDV.   ![](/img/products/q-fleet/image143.png)
  
  
+**Important Notes** 
+- Changing the IDV value may affect the premium amount.  
+- A higher IDV typically results in a higher premium.  
+- Selected add-ons remain unchanged after updating the IDV. 
  
-Capability and Functionality_V1.0                                                                          Page 88 | 126 
- 
-The system updates the premium amount based on the selected IDV.
- 
- 
-Important Notes 
-• Changing the IDV value may affect the premium amount.  
-• A higher IDV typically results in a higher premium.  
-• Selected add-ons remain unchanged after updating the IDV. 
- 
-6.1.5 Premium Breakup 
-The right panel displays a premium summary that updates automatically based on your 
-selections: 
-• Net Premium: Basic OD Premium, TP Liability, Add-on Covers 
-• GST 
-• NCB AMOUNT 
-• IGST (0%) 
-• Total Premium (Yearly) 
+### 6.1.5 Premium Breakup 
+The right panel displays a premium summary that updates automatically based on your selections:
+- Net Premium: Basic OD Premium, TP Liability, Add-on Covers 
+- GST 
+- NCB AMOUNT 
+- IGST (0%) 
+- Total Premium (Yearly)     ![](/img/products/q-fleet/image144.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 89 | 126 
- 
- 
-6.2 Complete the Quote 
-1) Review the premium breakup.
- 
+## 6.2 Complete the Quote 
+1) Review the premium breakup.  ![](/img/products/q-fleet/image145.png)
 Ensure all vehicle statuses show Valid. 
  
-2) Select Continue to Buy.
+2) Select Continue to Buy.  ![](/img/products/q-fleet/image146.png)
  
  
-7. Review Fleet Details 
-After selecting Continue to Buy, the Review Fleet Details page opens. This page verifies 
-insured information and vehicle details before generating the proposal. 
-7.1 Page Overview 
+# 7. Review Fleet Details
+
+After selecting Continue to Buy, the Review Fleet Details page opens. This page verifies insured information and vehicle details before generating the proposal. 
+
+## 7.1 Page Overview 
+
 The Review Fleet Details page includes: 
- 
-Capability and Functionality_V1.0                                                                          Page 90 | 126 
- 
-• Fleet Request Number: A unique reference number for your request 
-• Customer Summary: Expandable section with customer and fleet information 
-• Two tabs: Insured Details and Vehicle Details 
+
+- **Fleet Request Number:** A unique reference number for your request 
+- **Customer Summary:** Expandable section with customer and fleet information 
+- **Two tabs:** Insured Details and Vehicle Details ![](/img/products/q-fleet/image147.png)
  
  
-7.2 Insured Details Tab 
+## 7.2 Insured Details Tab
+
 This tab collects and displays insured and contacts information. All fields are editable. 
+![](/img/products/q-fleet/image148.png)
  
- 
- 
-Capability and Functionality_V1.0                                                                          Page 91 | 126 
- 
-7.2.1 Company Details 
+### 7.2.1 Company Details
+
 Review and update the following fields: 
-• Salutation, Company Name, Address Line 1, Address Line 2, Pincode, City, State 
+
+- Salutation, Company Name, Address Line 1, Address Line 2, Pincode, City, State   ![](/img/products/q-fleet/image149.png)
  
+- PAN Number: Enter the PAN card number manually.   ![](/img/products/q-fleet/image150.png)
  
-• PAN Number: Enter the PAN card number manually. 
+**Note: -** The PAN Number field does not auto-populate. You must enter this information manually. 
+
  
-Note: - The PAN Number field does not auto-populate. You must enter this 
-information manually. 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 92 | 126 
- 
-7.2.2 KYC Details 
+### 7.2.2 KYC Details 
+
 Complete the Know Your Customer (KYC) details: 
-• Document Type: Select PAN or GST 
-o If you select PAN, the Document Number field auto-populates with the PAN 
-number 
-o If you select GST, enter the GST number manually in the Document Number field 
-• Document Number 
+- Document Type: Select PAN or GST 
+    - If you select PAN, the Document Number field auto-populates with the PAN  number 
+    - If you select GST, enter the GST number manually in the Document Number field 
+- Document Number 
+ ![](/img/products/q-fleet/image151.png)
+
+**Note: -** *Both fields are required.* 
  
-Note: - Both fields are required. 
- 
-7.2.3 Authorized Signatory Contact Details 
+### 7.2.3 Authorized Signatory Contact Details 
+
 Verify and update the authorized signatory information: 
-• Salutation, First Name, Middle Name (optional), Last Name, Mobile Number, Email 
-Address 
+
+- Salutation, First Name, Middle Name (optional), Last Name, Mobile Number, Email Address 
+![](/img/products/q-fleet/image152.png)
+
  
+### 7.2.4 Continue to Vehicle Details 
+
+After completing the Insured Details:
+
+- Select Next to move to the Vehicle Details tab.   ![](/img/products/q-fleet/image153.png)
+
+- Select Back to return to the previous screen. 
+
+**Note: -** *The Next button remains disabled until all required fields contain valid information.*
  
+## 7.3 Vehicle Details Tab 
+
+This tab displays vehicle and quotation information. ![](/img/products/q-fleet/image154.png) 
+
  
-Capability and Functionality_V1.0                                                                          Page 93 | 126 
- 
-7.2.4 Continue to Vehicle Details 
-After completing the Insured Details: 
-• Select Next to move to the Vehicle Details tab. 
- 
- 
-• Select Back to return to the previous screen. 
-Note: - The Next button remains disabled until all required fields contain valid 
-information. 
- 
-7.3 Vehicle Details Tab 
-This tab displays vehicle and quotation information. 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 94 | 126 
- 
-7.3.1 Information Displayed 
+### 7.3.1 Information Displayed 
 The Vehicle Details tab includes: 
-• Global Search: Search for specific vehicles 
+- Global Search: Search for specific vehicles   ![](/img/products/q-fleet/image155.png) 
  
  
-• Vehicle list table with these columns: 
-o Quotation Number, Make, Model, Variant, Fuel Type, Vehicle, Total Premium, 
-Actions 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 95 | 126 
- 
-7.3.2 Premium Breakup 
+- Vehicle list table with these columns: 
+    - Quotation Number, Make, Model, Variant, Fuel Type, Vehicle, Total Premium, Actions
+
+    ![](/img/products/q-fleet/image156.png)
+
+### 7.3.2 Premium Breakup 
+
 The right panel displays: 
-• Basic OD Premium, TP Liability, Add-on Covers, GST (18%), Total Premium (Yearly) 
+- Basic OD Premium, TP Liability, Add-on Covers, GST (18%), Total Premium (Yearly) ![](/img/products/q-fleet/image157.png)
  
-Note: - Values may display as ₹ – until all required data is valid. 
+**Note: -** *Values may display as ₹ – until all required data is valid.* 
  
-7.4 Generate Proposal 
-The Generate Proposal button appears at the bottom of the page. The button remains 
-disabled until: 
-• All Insured Details are complete, KYC Details are provided, At least one valid quote is 
-available 
-1) Select Generate Proposal. 
- 
- 
- 
-8. KYC Verification Required 
-KYC (Know Your Customer) verification is a mandatory identity verification process required 
-before generating the proposal. 
-After you select Generate Proposal, the system checks whether KYC verification is completed. 
-If KYC is not available, the KYC Verification Required pop-up appears. 
+## 7.4 Generate Proposal 
+
+The Generate Proposal button appears at the bottom of the page. The button remains disabled until: 
+
+- All Insured Details are complete, KYC Details are provided, At least one valid quote is available
+
+1) Select Generate Proposal.  ![](/img/products/q-fleet/image158.png)
+
+# 8. KYC Verification Required 
+KYC (Know Your Customer) verification is a mandatory identity verification process required before generating the proposal. 
+After you select Generate Proposal, the system checks whether KYC verification is completed. If KYC is not available, the KYC Verification Required pop-up appears. 
+
 KYC verification helps: 
-• Verify customer identity  
-• Improve security and fraud prevention  
-• Ensure compliance with regulatory requirements  
-• Allow successful proposal generation 
-Note: - You must complete KYC verification before generating the proposal. 
+- **Verify customer identity**  
+- **Improve security and fraud prevention**  
+- **Ensure compliance with regulatory requirements**  
+- **Allow successful proposal generation**
+
+**Note: -** *You must complete KYC verification before generating the proposal.*
+
 Complete KYC Verification 
-1) Select Generate Proposal. 
-P a ge 96 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 97 | 126 
+1) Select Generate Proposal. ![](/img/products/q-fleet/image159.png)
  
 If KYC is not completed, the system displays the KYC Verification Required pop-up. 
+
 The pop-up displays: 
-• KYC status message  
-• Verification link  
-• Steps to complete KYC 
+- KYC status message  
+- Verification link  
+- Steps to complete KYC  ![](/img/products/q-fleet/image160.png)
  
  
-Start the KYC Process 
-1) Select Complete KYC.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 98 | 126 
- 
-The HyperVerge identity verification page opens.
- 
+**Start the KYC Process** 
+1) Select Complete KYC. ![](/img/products/q-fleet/image161.png)
+
+- The HyperVerge identity verification page opens.   ![](/img/products/q-fleet/image162.png)
 On the verification page, review the verification information. 
  
 2) Select Get started.
  
  
-Choose Verification Method 
+**Choose Verification Method**
+
 The system displays the following options: 
-• Proceed on Mobile: Continue verification on a mobile device  
+- **Proceed on Mobile:** Continue verification on a mobile device  
+
+ 
+- **Proceed here:** Continue verification on the current device. Select the proceed here option. ![](/img/products/q-fleet/image163.png)
  
  
-Capability and Functionality_V1.0                                                                          Page 99 | 126 
+**Enter GSTIN Details**
+
+1) On the Enter GSTIN details page, enter the GSTIN number.  ![](/img/products/q-fleet/image164.png)
+
  
-• Proceed here: Continue verification on the current device  
-Select the proceed here option. 
+2) Select Proceed.     ![](/img/products/q-fleet/image165.png)
+**Or** Select I do not have GSTIN. Upload a document if GSTIN is unavailable. 
  
- 
-Enter GSTIN Details 
-1) On the Enter GSTIN details page, enter the GSTIN number.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 100 | 126 
- 
-2) Select Proceed.
- 
-Or 
-Select I do not have GSTIN. Upload a document if GSTIN is unavailable. 
- 
-Complete Verification 
-1) Follow the on-screen verification steps.  
+**Complete Verification**
+
+1) Follow the on-screen verification steps. 
 2) Complete the identity verification process.  
  
-After successful verification: 
-• The system displays a confirmation message.  
-• The application is approved successfully.  
-• The system automatically redirects you to the Quote List page after a few seconds. 
+**After successful verification:** 
+- The system displays a confirmation message.  
+- The application is approved successfully.  
+- The system automatically redirects you to the Quote List page after a few seconds. 
+ ![](/img/products/q-fleet/image166.png)
+
  
- 
- 
- 
- 
- 
-9. Quote List 
-The Quote List page displays all created fleet quotes and their current KYC and proposal 
-status. This page helps you track fleet records, verify KYC status, generate proposals, and 
-manage fleet quote details from a single location. 
-Purpose of the Quote List Page 
+# 9. Quote List 
+The Quote List page displays all created fleet quotes and their current KYC and proposal status. This page helps you track fleet records, verify KYC status, generate proposals, and manage fleet quote details from a single location. 
+
+**Purpose of the Quote List Page**
+
 The Quote List page helps you: 
-• View all created fleet quotes, Track total fleet and quote count, Check KYC verification 
-status, Generate proposals after KYC approval, View valid and invalid vehicle records, 
-Search and refresh quote details  
-Quote List Dashboard Summary 
-The top section of the page displays summary information for all fleet quotes. 
-Available Metrics 
-• Total Fleets: Displays the total number of fleet groups created in the system.  
-• Total Quotes: Displays the total number of quotes available across all fleets.  
-• KYC Verified Fleets: Displays the number of fleets with completed and approved KYC 
-verification.  
-• Proposals Generated: Displays the total number of successfully generated proposals.  
-• Current Page: Displays the current page number in the quote list.  
-P a ge 101 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 102 | 126 
- 
-Note Message 
+- View all created fleet quotes, Track total fleet and quote count, Check KYC verification status, Generate proposals after KYC approval, View valid and invalid vehicle records, Search and refresh quote details  
+
+**Quote List Dashboard Summary**
+
+The top section of the page displays summary information for all fleet quotes.
+
+**Available Metrics** 
+- **Total Fleets:** Displays the total number of fleet groups created in the system.  
+- **Total Quotes:** Displays the total number of quotes available across all fleets.  
+- **KYC Verified Fleets:** Displays the number of fleets with completed and approved KYC verification.  
+- **Proposals Generated:** Displays the total number of successfully generated proposals.  
+- **Current Page:** Displays the current page number in the quote list.  
+    ![](/img/products/q-fleet/image167.png) 
+
+**Note Message** 
+
 The page also displays the following information: 
-• Select the green Generate Proposal icon to generate proposals for all quotes in the 
-selected fleet.  
-• The Generate Proposal option remains disabled if:  
-o KYC verification is pending or not approved  
-o Proposal is already generated  
+- Select the green Generate Proposal icon to generate proposals for all quotes in the selected fleet.  
+- The Generate Proposal option remains disabled if:  
+    - KYC verification is pending or not approved  
+    - Proposal is already generated
+ 
+    ![](/img/products/q-fleet/image168.png) 
  
  
-Search and Refresh Options 
-Global Search 
-Use the Global Search field to search fleet records quickly. 
+**Search and Refresh Options**
+
+**Global Search**
+
+Use the Global Search field to search fleet records quickly.
+
 You can search using: 
-• Fleet number, Record details,  KYC status information  
+- Fleet number, Record details,  KYC status information  ![](/img/products/q-fleet/image169.png) 
  
  
-Refresh 
+**Refresh** 
 Select Refresh to reload the latest quote and KYC details. 
-Quote List Table 
+
+**Quote List Table** 
 The Quote List table displays fleet-wise quote information. 
-Table Columns 
-• Serial No: Displays the serial number of the fleet record. 
-• Fleet Number: Displays the unique fleet identification number created by the system. 
-• Total Records: Displays the total number of vehicle records available in the fleet. 
-• Valid Records: Displays the number of valid vehicle records. 
-• Invalid Records: Displays the number of invalid vehicle records, if any. 
-• KYC Status: Displays the current KYC verification status. 
-• Possible values: 
-o Approved  
-o Pending  
-P a ge 103 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 104 | 126 
+
+**Table Columns** 
+- **Serial No:** Displays the serial number of the fleet record. 
+- **Fleet Number:** Displays the unique fleet identification number created by the system. 
+- **Total Records:** Displays the total number of vehicle records available in the fleet. 
+- **Valid Records:** Displays the number of valid vehicle records. 
+- **Invalid Records:** Displays the number of invalid vehicle records, if any. 
+- **KYC Status:** Displays the current KYC verification status. 
+- **Possible values:** 
+    - Approved  
+    - Pending  
+
  
  
-Actions 
-Displays available action options for the selected fleet. 
+**Actions**
+
+Displays available action options for the selected fleet.
+
 Available actions: 
-• Check KYC  
-• View details  
-• Generate Proposal  
+- Check KYC  
+- View details  
+- Generate Proposal  
  
-Check KYC Status 
+**Check KYC Status** 
 Use the Check KYC option to verify the current KYC approval status for the selected fleet. 
  
-To check KYC status 
-1) On the Quote List page, locate the required fleet record.
+**To check KYC status** 
+1) On the Quote List page, locate the required fleet record.   ![](/img/products/q-fleet/image170.png) 
  
  
-2) Select Check KYC. 
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 105 | 126 
+2) Select Check KYC.  ![](/img/products/q-fleet/image170.1.png) 
+
  
 The KYC Status Check pop-up window opens. 
-The pop-up displays: 
-• Fleet Number  
-• KYC Status  
-• Approval Message  
+
+The pop-up displays:
+
+- Fleet Number  
+- KYC Status  
+- Approval Message  
+ ![](/img/products/q-fleet/image171.png) 
+
+Example:
+
+- **KYC Status:** Approved  
+- **Message:** Approved  
  
-Example: 
-• KYC Status: Approved  
-• Message: Approved  
- 
-3) Select Close to close the pop-up window.
- 
- 
-10. Generate Proposal 
-The Generate Proposal option becomes available only after successful KYC approval. 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 106 | 126 
- 
-To generate a proposal 
-1) Verify that the KYC status displays Approved.
+3) Select Close to close the pop-up window.  ![](/img/products/q-fleet/image172.png) 
  
  
-2) Select the green Generate Proposal icon.
+# 10. Generate Proposal 
+The Generate Proposal option becomes available only after successful KYC approval.
+
+ 
+**To generate a proposal**
+
+1) Verify that the KYC status displays Approved. ![](/img/products/q-fleet/image173.png) 
  
  
-The system generates proposals for all quotes available in the selected fleet. 
+2) Select the green Generate Proposal icon.  ![](/img/products/q-fleet/image174.png) 
  
-Submit Fleet Proposal Page 
-The Submit Fleet Proposal page appears after you successfully generate the fleet proposal. 
-This page allows you to review all proposal details before submitting the final fleet insurance 
-proposal. 
+ 
+- The system generates proposals for all quotes available in the selected fleet. 
+ 
+**Submit Fleet Proposal Page**
+
+The Submit Fleet Proposal page appears after you successfully generate the fleet proposal. This page allows you to review all proposal details before submitting the final fleet insurance proposal. 
+
 The page displays complete fleet proposal information, including: 
-• Insurance company details  
-• Company details  
-• Authorized signatory details  
- 
-• Vehicle details  
-• Premium breakup  
-• Terms and declarations  
-This page helps ensure all information is verified before final submission. 
-Purpose of the Submit Fleet Proposal Page 
-The Submit Fleet Proposal page helps you: 
-• Review generated proposal details  
-• Verify customer and vehicle information  
-• Check premium and GST breakup  
-• Download proposal documents  
-• Accept terms and declarations  
-• Submit the final fleet proposal for authentication  
-Proposal Generation Status 
+- Insurance company details  
+- Company details  
+- Authorized signatory details  
+- Vehicle details  
+- Premium breakup  
+- Terms and declarations
+
+This page helps ensure all information is verified before final submission.
+
+**Purpose of the Submit Fleet Proposal Page**
+
+The Submit Fleet Proposal page helps you:
+
+- Review generated proposal details  
+- Verify customer and vehicle information  
+- Check premium and GST breakup  
+- Download proposal documents  
+- Accept terms and declarations  
+- Submit the final fleet proposal for authentication
+
+**Proposal Generation Status** 
+
 After proposal generation, the system displays the following success message: 
-Your proposals have been successfully generated! You can proceed with submission. 
+
+**Your proposals have been successfully generated! You can proceed with submission.**    
+        ![](/img/products/q-fleet/image175.png) 
+
 The page also displays: 
-• Total fleet premium  
-• Total number of vehicles in the fleet  
-• Insurance company name  
-• Policy type  
+- Total fleet premium  
+- Total number of vehicles in the fleet  
+- Insurance company name  
+- Policy type
+
 Example: 
-• Fleet Proposal – 2 Vehicles  
-• Policy Type – Comprehensive  
-P a ge 107 | 126 
-Capability and Functionality_V1.0                                                                          
+- Fleet Proposal – 2 Vehicles  
+- Policy Type – Comprehensive  
+
  
-Capability and Functionality_V1.0                                                                          Page 108 | 126 
- 
-Customer Summary Section 
+**Customer Summary Section**
+
 The Customer Summary section displays complete customer and proposal information. 
-You can expand or collapse the section using the dropdown arrow. 
+
+You can expand or collapse the section using the dropdown arrow.  ![](/img/products/q-fleet/image176.png) 
  
  
-Company Details 
-The Company Details section displays company information entered during proposal 
-creation. 
+**Company Details**
+
+The Company Details section displays company information entered during proposal creation. 
+
 Displayed details include: 
-• Company Name, Address, Pin Code, City, State, PAN Number, GST Number  
- 
+- **Company Name**, **Address**, **Pin Code**, **City**, **State**, **PAN Number**, **GST Number**    ![](/img/products/q-fleet/image177.png)
 This section helps users verify company information before submission. 
+
  
- 
-Capability and Functionality_V1.0                                                                          Page 109 | 126 
- 
-Authorized Signatory Contact Details 
+**Authorized Signatory Contact Details** 
+
 This section displays the authorized person’s contact information. 
+
 Displayed details include: 
-• Name  
-• Email ID  
-• Mobile Number 
- 
+- Name  
+- Email ID  
+- Mobile Number    ![](/img/products/q-fleet/image178.png)
 This section helps confirm communication details for policy processing. 
  
-Vehicle Details 
+**Vehicle Details**
+
 The Vehicle Details section displays all vehicles included in the fleet proposal. 
+
 Displayed information includes: 
-• Proposal Number, Registration Number, Vehicle Type, Policy Type, Policy Sub Type, 
-Vehicle Make, Vehicle Model, Variant, Total Premium  
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 110 | 126 
- 
-Download Proposal Document 
-The Actions column displays a download icon. 
-To download the proposal document 
+
+- **Proposal Number**, **Registration Number**, **Vehicle Type**, **Policy Type**, **Policy Sub Type**, **Vehicle Make**, **Vehicle Model**, **Variant**, **Total Premium**  
+    ![](/img/products/q-fleet/image179.png)
+
+**Download Proposal Document**
+
+The Actions column displays a download icon.
+
+**To download the proposal document**
+
 1. Locate the required vehicle record.  
-2. Select the Download icon.  
- 
+2. Select the Download icon.
+![](/img/products/q-fleet/image180.png)  
 The system downloads the proposal document for the selected vehicle. 
  
-Schedule of Premium – Fleet Total 
-This section displays the complete fleet premium breakup. 
+**Schedule of Premium – Fleet Total**
+
+This section displays the complete fleet premium breakup.
+
 Displayed premium details include: 
-• Basic OD Premium, TP Liability, Add-on Covers, Subtotal, GST (18%), Total Payable 
-Premium 
+
+- **Basic OD Premium**, **TP Liability**, **Add-on Covers**, **Subtotal**, **GST (18%)**, **Total Payable Premium** 
+![](/img/products/q-fleet/image181.png) 
  
  
-This section helps users understand the final payable premium amount. 
-Declaration Section 
+This section helps users understand the final payable premium amount.
+
+**Declaration Section**
+
 Before submission, you must accept the declarations and policy terms. 
-• Available Declaration Options 
-• Confirm Details 
+- **Available Declaration Options**
+
+- **Confirm Details**
+
 Select: 
-• I confirm that all the details provided above are accurate.  
+
+- **I confirm that all the details provided above are accurate.**
+
 This confirms that all entered information is correct. 
-• Accept Terms and Conditions 
+
+- **Accept Terms and Conditions** 
+
 Select: 
-• I have read and agree to the terms & conditions of the insurance policy.  
+
+- **I have read and agree to the terms & conditions of the insurance policy.** ![](/img/products/q-fleet/image182.png)
+
 This confirms acceptance of insurance policy terms. 
-Important Notes 
-The page also displays important insurance-related notes, including: 
-• Policy issuance is subject to cheque realization  
-• Consolidated stamp duty details  
-• Compulsory deductible information  
-• Policy terms availability  
-• Geographical coverage information  
-Authenticate & Submit Fleet Proposal 
-The Authenticate & Submit Fleet Proposal button becomes active only after selecting both 
-declaration checkboxes. 
-To submit the fleet proposal 
+
+**Important Notes**
+
+The page also displays important insurance-related notes, including:
+
+- Policy issuance is subject to cheque realization  
+- Consolidated stamp duty details  
+- Compulsory deductible information  
+- Policy terms availability  
+- Geographical coverage information
+
+**Authenticate & Submit Fleet Proposal**
+
+The Authenticate & Submit Fleet Proposal button becomes active only after selecting both declaration checkboxes.
+
+**To submit the fleet proposal**
+
 1. Review all proposal details carefully.  
 2. Select both declaration checkboxes.  
-P a ge 111 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 112 | 126 
- 
-3. Select Authenticate & Submit Fleet Proposal. 
- 
-The system proceeds with proposal authentication and submission. 
+3. Select Authenticate & Submit Fleet Proposal.  ![](/img/products/q-fleet/image183.png)
  
  
-11. OTP Verification 
-After you select Authenticate & Submit Fleet Proposal, the system starts OTP verification to 
-confirm your identity before processing the proposal submission. 
+# 11. OTP Verification 
+
+After you select Authenticate & Submit Fleet Proposal, the system starts OTP verification to confirm your identity before processing the proposal submission. 
+
 The system sends a 4-digit OTP (One-Time Password) to the registered: 
  
-• Mobile number  
-• Email address  
+- **Mobile number**  
+- **Email address**   ![](/img/products/q-fleet/image184.png)
  
-This process helps ensure secure proposal authentication and prevents unauthorized 
-submissions. 
+This process helps ensure secure proposal authentication and prevents unauthorized submissions. 
+
  
- 
-Capability and Functionality_V1.0                                                                          Page 113 | 126 
- 
-How to Complete OTP Verification 
+**How to Complete OTP Verification** 
 1. Select Authenticate & Submit Fleet Proposal.  
 2. The Verify Your Identity pop-up window opens.  
 3. The system sends a 4-digit OTP to the registered contact details.  
 4. Enter the OTP in the provided OTP fields.  
 5. Select Verify OTP.  
 6. The system validates the OTP and proceeds to the next step after successful 
-verification.  
+verification.   ![](/img/products/q-fleet/image185.png)
  
  
-Resend OTP 
+ 
+**Resend OTP**
+
 If you do not receive the OTP: 
 1. Wait for the resend timer to complete.  
 2. Select Resend OTP.  
-3. The system sends a new OTP to the registered mobile number and email address.  
+3. The system sends a new OTP to the registered mobile number and email address.  ![](/img/products/q-fleet/image186.png)
  
  
-Cancel OTP Verification 
-Select Cancel to close the OTP verification window without submitting the proposal. 
-12. Payment Mode Page 
+**Cancel OTP Verification**
+
+Select Cancel to close the OTP verification window without submitting the proposal.   ![](/img/products/q-fleet/image187.png)
+
+# 12. Payment Mode Page
+
 After successful OTP verification, the system redirects you to the Payment Mode page. 
-This page allows you to: 
-• Review premium details  
-• View the total payable premium  
-• Select a preferred payment method  
-• Proceed with secure payment processing  
-Purpose of the Payment Mode Page 
+
+This page allows you to:
+ 
+- Review premium details  
+- View the total payable premium  
+- Select a preferred payment method  
+- Proceed with secure payment processing  
+
+**Purpose of the Payment Mode Page**
+
 The Payment Mode page helps users: 
-• Verify the final premium amount before payment  
-• Select a suitable payment option  
-• Complete policy payment securely  
-• Proceed with policy issuance  
-Premium Breakup Section 
+- Verify the final premium amount before payment  
+- Select a suitable payment option  
+- Complete policy payment securely  
+- Proceed with policy issuance
+
+**Premium Breakup Section** 
 The left panel displays the insurance and premium details, including: 
-• Insurance company name, Policy validity date, Net premium, Basic OD premium, TP 
-liability, Add-on covers, GST amount, NCB amount, Total yearly premium 
-P a ge 114 | 126 
-Capability and Functionality_V1.0                                                                          
+- Insurance company name, Policy validity date, Net premium, Basic OD premium, TP liability, Add-on covers, GST amount, NCB amount, Total yearly premium 
  
-Capability and Functionality_V1.0                                                                          Page 115 | 126 
- 
-  
-Example: 
-• Total Premium (Yearly): ₹1,19,336  
- 
+**Example:**
+
+- Total Premium (Yearly): ₹1,19,336  ![](/img/products/q-fleet/image188.png)
 This section helps users review the complete premium breakup before payment. 
  
-Available Payment Modes 
+**Available Payment Modes**
+
 The system provides the following payment options: 
  
-Online Payment 
+**Online Payment**
+
 Use this option to pay using: 
-• Credit card, Debit card, Net banking, UPI 
-Description: Pay securely using credit/debit card, net banking or UPI. 
+
+- Credit card, Debit card, Net banking, UPI 
+**Description:** Pay securely using credit/debit card, net banking or UPI.   ![](/img/products/q-fleet/image189.png)
  
- 
- 
-Capability and Functionality_V1.0                                                                          Page 116 | 126 
- 
-Wallet 
+
+**Wallet**
+
 Use this option to pay using supported digital wallets such as: 
-• Paytm, PhonePe, Other supported wallets 
-Description: Pay using your digital wallet like Paytm, PhonePe, etc. 
- 
- 
-12.1 How to Use the Payment Mode Page 
-Step 1: Review Premium Details 
+- Paytm, PhonePe, Other supported wallets
+
+**Description:** Pay using your digital wallet like Paytm, PhonePe, etc. 
+    ![](/img/products/q-fleet/image190.png)
+
+## 12.1 How to Use the Payment Mode Page 
+**Step 1:** Review Premium Details 
+
 Review: 
-• Insurance company information  
-• Policy validity  
-• Premium breakup  
-• Total payable amount  
+- Insurance company information  
+- Policy validity  
+- Premium breakup  
+- Total payable amount  
+ ![](/img/products/q-fleet/image188.png)
  
- 
- 
-Capability and Functionality_V1.0                                                                          Page 117 | 126 
- 
-Step 2: Select Payment Method 
+**Step 2:** Select Payment Method 
 Choose one of the available payment options: 
-• Online Payment  
-• Wallet  
-Select wallet to complete payment
+- Online Payment  
+- Wallet  
+Select wallet to complete payment   ![](/img/products/q-fleet/image190.png)
  
  
-Step 3: Proceed to Payment 
+**Step 3:** Proceed to Payment 
 1. Select Next.  
+![](/img/products/q-fleet/image191.png)
+ 
+2. The system redirects you to the payment processing page.   ![](/img/products/q-fleet/image192.png)
  
  
- 
-Capability and Functionality_V1.0                                                                          Page 118 | 126 
- 
-2. The system redirects you to the payment processing page. 
- 
- 
-Cancel Payment 
-Select Cancel to exit the payment process without proceeding. 
+**Cancel Payment**
+
+- Select Cancel to exit the payment process without proceeding.    ![](/img/products/q-fleet/image193.png)
  
  
-12.2 Make Wallet Payment 
-After you select the Wallet payment option on the Payment Mode page, the system opens the 
-Make Wallet Payment page. 
-This page allows you to complete the insurance premium payment using the available wallet 
-balance 
+## 12.2 Make Wallet Payment 
+
+After you select the Wallet payment option on the Payment Mode page, the system opens the Make Wallet Payment page. 
+This page allows you to complete the insurance premium payment using the available wallet balance.
  
  
-Purpose of the Make Wallet Payment Page 
+**Purpose of the Make Wallet Payment Page**
+
 The Make Wallet Payment page helps you: 
-• Pay the premium directly from the wallet balance  
-• Review the final premium amount before payment  
-• Confirm payment terms and conditions  
-• Complete quick and secure payment processing  
-Information Displayed on the Page 
+
+- Pay the premium directly from the wallet balance  
+- Review the final premium amount before payment  
+- Confirm payment terms and conditions  
+- Complete quick and secure payment processing 
+
+**Information Displayed on the Page**
+
 The page displays the following details: 
-• Available wallet balance  
-• Final premium amount including GST  
-• Payment declaration and confirmation checkboxes  
-Example: 
-• Wallet Balance: ₹9,11,440.00  
-• Final Premium (Including GST): ₹1,19,336  
-12.3 How to Make Wallet Payment 
-Step 1: Review Wallet Balance 
-Verify that the wallet has sufficient balance to complete the payment.
-P a ge 119 | 126 
-Capability and Functionality_V1.0                                                                          
+- Available wallet balance  
+- Final premium amount including GST  
+- Payment declaration and confirmation checkboxes
+
+**Example:**
+
+- Wallet Balance: ₹9,11,440.00  
+- Final Premium (Including GST): ₹1,19,336 
+
+## 12.3 How to Make Wallet Payment 
+
+**Step 1:** Review Wallet Balance 
+- Verify that the wallet has sufficient balance to complete the payment.     ![](/img/products/q-fleet/image194.png)
  
-Capability and Functionality_V1.0                                                                          Page 120 | 126 
+**Step 2:** Review Final Premium 
+- Review the displayed final premium amount including GST before proceeding.        ![](/img/products/q-fleet/image195.png)
  
-Step 2: Review Final Premium 
-Review the displayed final premium amount including GST before proceeding.
+
+**Step 3:** Accept Terms and Conditions
+
+Select the required declaration checkboxes to confirm:
+
+- You have read and agreed to the payment terms  
+- Sufficient funds are available for payment processing 
+
+    - Both declarations must be selected before proceeding with payment.   
+
+  ![](/img/products/q-fleet/image196.png)
  
+
  
-Step 3: Accept Terms and Conditions 
-Select the required declaration checkboxes to confirm: 
-• You have read and agreed to the payment terms  
-• Sufficient funds are available for payment processing  
-Both declarations must be selected before proceeding with payment.
- 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 121 | 126 
- 
-Step 4: Complete Payment 
-1. Select Make Payment.  
+**Step 4:** Complete Payment 
+
+1. Select Make Payment.  ![](/img/products/q-fleet/image197.png)
  
  
 2. The system processes the payment using the wallet balance.  
 3. After successful payment, the system shows policy booking success page.  
  
-Cancel Payment 
-Select Cancel to exit the payment process without making payment.
+**Cancel Payment**
+
+- Select Cancel to exit the payment process without making payment. ![](/img/products/q-fleet/image198.png)
  
  
-13. Policy Booking Success Page 
-After successful OTP verification and payment completion, the system displays the Policy 
-Booking Success page. 
-This page confirms that the insurance policy has been successfully booked and shared with 
-the customer. 
+## 13. Policy Booking Success Page 
+After successful OTP verification and payment completion, the system displays the Policy Booking Success page. 
+This page confirms that the insurance policy has been successfully booked and shared with the customer. 
  
-Purpose of the Page 
-The Policy Booking Success page helps users: 
-• Confirm successful policy booking  
-• View policy and customer details  
-• Review insured vehicle information  
-• Check premium details  
-• Download policy documents  
-• Start a new policy purchase if required  
-Success Confirmation Message 
+**Purpose of the Page**
+
+The Policy Booking Success page helps users:
+
+- Confirm successful policy booking  
+- View policy and customer details  
+- Review insured vehicle information  
+- Check premium details  
+- Download policy documents  
+- Start a new policy purchase if required  
+
+**Success Confirmation Message**
+
 The page displays a success message confirming policy issuance. 
-Example: 
-• Your policy has been booked successfully.  
-• Policy details have been shared through email, SMS, and WhatsApp.  
-This confirmation ensures that the customer has successfully completed the insurance 
-purchase process. 
-Policy Summary Section 
-The top section displays: 
-• Insurance company name  
-• Policy type  
-• Policy validity date  
-Example: 
-• Comprehensive Policy  
-• New India Assurance Limited  
-P a ge 122 | 126 
-Capability and Functionality_V1.0                                                                          
- 
-Capability and Functionality_V1.0                                                                          Page 123 | 126 
- 
-• Valid till 18/05/2027  
- 
-This section provides a quick overview of the issued policy. 
- 
-Company Details Section 
+
+**Example:**
+
+- *Your policy has been booked successfully.* 
+- *Policy details have been shared through email, SMS, and WhatsApp.*
+
+    ![](/img/products/q-fleet/image199.png)
+This confirmation ensures that the customer has successfully completed the insurance purchase process. 
+
+**Policy Summary Section**
+
+The top section displays:
+
+- Insurance company name  
+- Policy type  
+- Policy validity date  
+
+**Example:**
+
+- Comprehensive Policy  
+- New India Assurance Limited  
+- Valid till 18/05/2027  
+    ![](/img/products/q-fleet/image200.png)
+ This section provides a quick overview of the issued policy.
+
+**Company Details Section**
+
 The page displays insured company information, including: 
-• Company name  
-• Registered address  
+
+- Company name  
+- Registered address  
+
+    ![](/img/products/q-fleet/image201.png)
+ This helps users verify the insured business details. 
+
  
-This helps users verify the insured business details. 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 124 | 126 
- 
-Authorized Signatory Contact Details 
-The page displays the authorized contact information, including: 
-• Salutation, First name, Last name, Mobile number, Email ID 
- 
+**Authorized Signatory Contact Details** 
+
+The page displays the authorized contact information, including:
+
+- Salutation, First name, Last name, Mobile number, Email ID 
+
+    ![](/img/products/q-fleet/image202.png)
 This ensures that policy communication details are correct. 
  
-Policy Details Section 
+**Policy Details Section**
+
 The page displays: 
-• Policy start date  
-• Total number of insured vehicles  
- 
+
+- Policy start date  
+- Total number of insured vehicles  
+    ![](/img/products/q-fleet/image203.png)
 This helps users confirm policy coverage details. 
  
+
+**Vehicle Details Section**
+
+The vehicle details table displays:
+
+- Policy number, Vehicle make, Vehicle model, Variant, Fuel type, Vehicle type, IDV value, Total premium
+    ![](/img/products/q-fleet/image204.png)  
+ This section helps users review all insured vehicles under the fleet policy. 
  
-Capability and Functionality_V1.0                                                                          Page 125 | 126 
- 
-Vehicle Details Section 
-The vehicle details table displays: 
-• Policy number, Vehicle make, Vehicle model, Variant, Fuel type, Vehicle type, IDV value, 
-Total premium  
- 
-This section helps users review all insured vehicles under the fleet policy. 
- 
-Download Policy Documents 
+**Download Policy Documents**
+
 The Actions column includes a download icon. 
  
-To download the policy document: 
+**To download the policy document:**
+
 1. Select the download icon.  
 2. The system downloads the policy document for the selected vehicle.  
- 
+
+    ![](/img/products/q-fleet/image205.png) 
 This allows users to save or share policy copies when required. 
- 
- 
-Capability and Functionality_V1.0                                                                          Page 126 | 126 
- 
-Premium Breakup Section 
-The page displays the complete premium summary, including: 
-• Basic OD Premium, TP Liability, Add-on Covers, Subtotal, GST, Total Payable Premium 
- 
+
+
+**Premium Breakup Section**
+
+The page displays the complete premium summary, including:
+
+- Basic OD Premium, TP Liability, Add-on Covers, Subtotal, GST, Total Payable Premium 
+    ![](/img/products/q-fleet/image206.png)
 This helps users understand the total premium calculation. 
  
-Buy Another Policy 
-Select Want to buy another policy? to start a new insurance purchase process.
+**Buy Another Policy**
+- Select Want to buy another policy? to start a new insurance purchase process.  ![](/img/products/q-fleet/image207.png)
