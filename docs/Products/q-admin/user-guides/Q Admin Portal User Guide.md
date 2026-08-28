@@ -1146,10 +1146,3 @@ The **"City"** master allows for the management of city information, linked to s
 2)	Make your required edits and click **Update**.   ![](/img/products/q-admin/301.png)
 
 - An **"Update City “City Name” successfully"** message appears in the upper-right corner. You are then redirected back to the City Master page.   ![](/img/products/q-admin/302.png)
-
-
-
-
-
-
-
