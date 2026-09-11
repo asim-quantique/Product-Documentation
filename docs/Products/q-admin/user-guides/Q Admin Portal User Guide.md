@@ -1,6 +1,7 @@
 ---
 slug: /q-admin/user-guide
 ---
+
 # Q Admin Portal User Guide
 This user guide provides comprehensive instructions for navigating and utilizing the Quantique Q Admin Portal. It covers essential functionalities from user authentication to managing master data, ensuring a secure and efficient administrative experience.
 

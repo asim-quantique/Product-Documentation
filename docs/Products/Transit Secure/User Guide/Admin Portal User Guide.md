@@ -1,5 +1,8 @@
-# Pickup and Drop Admin Actions
-# 1.	Log in Admin Portal
+---
+title: Admin Portal Guide
+---
+
+## 1.	Log in Admin Portal
 To access the portal, follow these steps:
 1)	Open your web browser, enter the Pickup and Drop URL in the address bar, and then press Enter.  ![](/img/products/transit-secure/admin/image1.jpeg)
 
@@ -16,7 +19,7 @@ To access the portal, follow these steps:
 
 - After successfully logging in, the Super Admin dashboard page appears.   ![](/img/products/transit-secure/admin/image6.png)
 
-# 2.	Super Admin Dashboard Overview
+## 2.	Super Admin Dashboard Overview
 
 The System Overview Dashboard provides a real-time summary of system activity. It helps administrators monitor dealers, drivers, pickups, and overall operations in one place.
 
@@ -220,7 +223,7 @@ Provides shortcuts for frequently used actions.
 - Monitor daily and weekly performance.
 
 
-# 3.	Dealer Registration
+## 3.	Dealer Registration
 
 Use this feature to onboard new dealers into the system.
 
@@ -237,7 +240,7 @@ Use this feature to onboard new dealers into the system.
 - **Add Single Dealer** ![](/img/products/transit-secure/admin/image25.png)
  
 
-## 3.1	Bulk Upload
+### 3.1	Bulk Upload
 1)	Select Bulk Upload.  ![](/img/products/transit-secure/admin/image26.png)
 
 - The upload section appears. ![](/img/products/transit-secure/admin/image27.png)
@@ -256,7 +259,7 @@ The system uploads the file and adds the dealers
 
 - A Drivers uploaded successfully message appears. The system then redirects you to the Dealer List page.   ![](/img/products/transit-secure/admin/image33.png)
 
-## 3.2	Add Single Dealer (Quick Onboarding)
+### 3.2	Add Single Dealer (Quick Onboarding)
 
 Use this method to quickly onboard a dealer using basic contact details.
 1)	Select Add Single Dealer.  ![](/img/products/transit-secure/admin/image34.png)
@@ -270,7 +273,7 @@ Use this method to quickly onboard a dealer using basic contact details.
 
 - A Link sent successfully message appears. The system then redirects you to the Dealer List page.    ![](/img/products/transit-secure/admin/image37.png)
 
-## 3.3	Add Single Dealer (Complete Onboarding)
+### 3.3	Add Single Dealer (Complete Onboarding)
 
 Use this method to onboard a dealer with full details.
 
@@ -334,7 +337,7 @@ Use this method to onboard a dealer with full details.
 - **Note: -** *After the dealer registration is complete, the system automatically sends a welcome email to the dealer. The email includes the username and temporary password. The dealer must reset the password during the first sign-in.*      ![](/img/products/transit-secure/admin/image52.png)
  
 
-## 3.4	Filter and Search Actions
+#### 3.3.1	Filter and Search Actions
 
 Use the following options on the Dealer List page to find records:
 
@@ -359,14 +362,14 @@ Use the following options on the Dealer List page to find records:
     ![](/img/products/transit-secure/admin/image58.png)
  
 
-# 4.	Masters
+## 4.	Masters
 
 **Important Note: -** *All master data (such as Make, Model, Variant, State, City, and Pincode) is predefined and managed in the backend by developers.*
 *You cannot add or modify this data from the application. This restriction is in place for security and compliance.*
 *The system will enable add or update options in future releases, based on business requirements.*
 
 
-## 4.1	Make
+### 4.1	Make
 1)	From the menu, select Masters, and then select Make.   ![](/img/products/transit-secure/admin/image59.png)
 
 - The Make Master page appears.   ![](/img/products/transit-secure/admin/image60.png)
@@ -387,7 +390,7 @@ The table displays the following details:
 - **Created Date:** Date when the make was added 
 - **Action:** Option to activate or deactivate the make
 
-### 4.1.2	Filter and Search Actions
+#### 4.1.2	Filter and Search Actions
 
 Use the following options on the Make Master page to find records:
 
@@ -414,13 +417,13 @@ Use the following options on the Make Master page to find records:
     ![](/img/products/transit-secure/admin/image66.png)
  
 
-## 4.2	Model
+### 4.2	Model
 
 1)	From the menu, select Masters, and then select Model.  ![](/img/products/transit-secure/admin/image67.png)
 
 - The Model Master page appears.  ![](/img/products/transit-secure/admin/image68.png)
 
-### 4.2.1	Model Overview
+#### 4.2.1	Model Overview
 
 Use the Model Master page to manage vehicle models in the system.
 
@@ -444,7 +447,7 @@ Use the Action button to update status:
 - Select Activate to make the model active. 
 - Select Deactivate to make the model inactive.
 
-### 4.2.2	Filter and Search Actions
+#### 4.2.2	Filter and Search Actions
 
 Use the following options on the Model Master page to find and manage records:
 
@@ -472,13 +475,13 @@ Use the following options on the Model Master page to find and manage records:
     ![](/img/products/transit-secure/admin/image74.png)
  
 
-## 4.3	Variant
+### 4.3	Variant
 
 1)	From the menu, select Masters, and then select Variants.   ![](/img/products/transit-secure/admin/image75.png)
 
 - The Variants Master page appears.   ![](/img/products/transit-secure/admin/image76.png)
 
-### 4.3.1	Variant Overview
+#### 4.3.1	Variant Overview
 
 Use the Variant Master page to manage vehicle variants in the system.
 
@@ -499,7 +502,7 @@ The table displays the following details:
 - **Created Date:** Date when the variant was added 
 - **Action:** Option to activate or deactivate the variant 
 
-### 4.3.2	Filter and Search Actions
+#### 4.3.2	Filter and Search Actions
 
 Use the following options on the Variant Master page to find and manage records:
 
@@ -525,13 +528,13 @@ Use the following options on the Variant Master page to find and manage records:
     ![](/img/products/transit-secure/admin/image82.png)
  
 
-## 4.4	State
+### 4.4	State
 
 1)	From the menu, select Masters, and then select State.  ![](/img/products/transit-secure/admin/image83.png)
 
 - The State Master page appears.  ![](/img/products/transit-secure/admin/image84.png) 
 
-### 4.4.1	State Overview
+#### 4.4.1	State Overview
 
 Use the State Master page to manage states in the system.
 
@@ -551,7 +554,7 @@ The table displays the following details:
 - **Created Date:** Date when the state was added 
 - **Action:** Option to activate or deactivate the state 
 
-### 4.4.2	Filter and Search Actions
+#### 4.4.2	Filter and Search Actions
 Use the following options on the State Master page to find and manage records:
 
 - **Status Tabs:** Select a tab (for example, All, Active, or Inactive) to filter states by status.
@@ -571,13 +574,13 @@ Use the following options on the State Master page to find and manage records:
     - Select Activate to make it active. 
     - Select Deactivate to make it inactive.
 
-## 4.5	City
+### 4.5	City
 
 1)	From the menu, select Masters, and then select City. 
 
 The City Master page appears. 
 
-### 4.5.1	City Overview
+#### 4.5.1	City Overview
 
 Use the City Master page to manage cities in the system.
 
@@ -596,7 +599,7 @@ The table displays the following details:
 - **Created Date:** Date when the city was added
 - **Action:** Option to activate or deactivate the city
 
-### 4.5.2	Filter and Search Actions
+#### 4.5.2	Filter and Search Actions
 
 Use the following options on the City Master page to find and manage records:
 
@@ -622,12 +625,12 @@ Use the following options on the City Master page to find and manage records:
     ![](/img/products/transit-secure/admin/image90.png)
  
 
-## 4.6	Pincode
+### 4.6	Pincode
 1)	From the menu, select Masters, and then select Pincode.   ![](/img/products/transit-secure/admin/image91.png)
 
 - The Pincode Master page appears.  ![](/img/products/transit-secure/admin/image92.png)
 
-### 4.6.1	Pincode Overview
+#### 4.6.1	Pincode Overview
 Use the Pincode Master page to manage Pincodes in the system.
 
 This page helps you:
@@ -647,7 +650,7 @@ The table displays the following details:
 - **Created Date:** Date when the pincode was added 
 - **Action:** Option to activate or deactivate the pincode 
 
-### 4.6.2	Filter and Search Actions
+#### 4.6.2	Filter and Search Actions
 
 Use the following options on the Pincode Master page to find and manage records:
 
@@ -674,7 +677,7 @@ Use the following options on the Pincode Master page to find and manage records:
     ![](/img/products/transit-secure/admin/image112.png)
  
 
-# 5.	Transaction Approvals
+## 5.	Transaction Approvals
 
 Use the Transaction Approvals page to review and manage dealer deposit requests.
 
@@ -708,7 +711,7 @@ The table displays the following details:
 - **Status:** Current request status (Pending, Approved, or Referback) 
 - **Actions:** Option to view transaction details 
 
-## 5.1	Transactions
+### 5.1	Transactions
 Follows these steps to approve the transaction request.
 
 1)	From the menu, select Transaction Approvals, and then select Transactions.  ![](/img/products/transit-secure/admin/image107.png) 
@@ -751,7 +754,7 @@ Review the transaction amount and confirmation message.
 
 3)	The transaction request status appears as Approved.     ![](/img/products/transit-secure/admin/image120.png)
 
-### 5.1.1	Filter and Search Actions
+#### 5.1.1	Filter and Search Actions
 
 Use the following options on the Transaction Approvals page to find records:
 
@@ -774,7 +777,7 @@ Use the following options on the Transaction Approvals page to find records:
     ![](/img/products/transit-secure/admin/image125.png)
  
 
-# 6.	MIS Report
+## 6.	MIS Report
 
 Use the MIS Report page to view dealer onboarding and policy sales reports.
 
@@ -792,7 +795,7 @@ The MIS Report page contains the following tabs:
 
  
 
-## 6.1	Dealers Onboarded Overview
+### 6.1	Dealers Onboarded Overview
 
 Use the Dealers Onboarded tab to track dealer onboarding activity.
 
@@ -830,7 +833,7 @@ The table displays the following details:
 ![](/img/products/transit-secure/admin/image131.png)
  
 
-## 6.2	Policies Sold Overview
+### 6.2	Policies Sold Overview
 
 Use the Policies Sold tab to track dealer policy sales performance.
 
@@ -870,7 +873,7 @@ The table displays the following details:
  
  
 
-### 6.2.1	Filter and Search Actions
+#### 6.2.1	Filter and Search Actions
 
 Use the following options on the MIS Report page to find records:
 
@@ -882,13 +885,13 @@ Use the following options on the MIS Report page to find records:
 - **Clear Filter (Reset):** Clear the search and date filters to reset the report list.  ![](/img/products/transit-secure/admin/image137.png)
  
 
-# 7.	Settings
+## 7.	Settings
 
 1)	From the menu, select Settings.  ![](/img/products/transit-secure/admin/image138.png)
 
 - The Settings page appears.   ![](/img/products/transit-secure/admin/image139.png)
 
-## 7.1	Theme Studio Overview
+### 7.1	Theme Studio Overview
 
 Use the Theme Studio page to customize the application appearance and color theme.
 
@@ -905,7 +908,7 @@ The page contains the following sections:
 - **Custom Colors** 
 - **Reset Option** 
 
-## Quick Themes
+#### Quick Themes
 Use the Quick Themes section to apply predefined color themes.
 
 The available themes include:
@@ -941,7 +944,7 @@ The preview displays the updated colors and dashboard appearance in real time.
 
 - The system applies the selected theme across the application interface.
 
-## Live Preview
+#### Live Preview
 
 Use the Live Preview section to view theme changes in real time.
 
@@ -959,7 +962,7 @@ The preview updates automatically when you:
 - This helps you review the appearance before using the theme across the application.
     ![](/img/products/transit-secure/admin/image144.png)
  
-## Custom Colors
+#### Custom Colors
 
 Use the Custom Colors section to create a custom theme.
 
@@ -974,7 +977,7 @@ Each color setting includes:
 ![](/img/products/transit-secure/admin/image145.png)
  
 
-## Change the Primary Color
+#### Change the Primary Color
 
 To change the primary color, follow these steps:
 
@@ -987,7 +990,7 @@ Select a color.
 
 The system updates the primary color automatically.
 
-## Change the Secondary Color
+#### Change the Secondary Color
 
 To change the secondary color, follow these steps:
 
@@ -1000,7 +1003,7 @@ Select a color.
 
 The system updates the secondary color automatically.
 
-## Reset Theme Settings
+#### Reset Theme Settings
 
 Use the Reset option to restore the default theme settings.
 
@@ -1009,7 +1012,7 @@ To reset the theme, follow these steps:
 1)	Select Reset in the upper-right corner.   ![](/img/products/transit-secure/admin/image150.png)
 The system restores the default theme colors and settings.  
 
-## Theme Studio Benefits
+#### Theme Studio Benefits
 
 Theme Studio helps you:
 

@@ -90,17 +90,17 @@ function HomepageHeader() {
           </p>
 
           <div className={styles.buttons}>
-            <Link
+            <a
               className={clsx(
-                'button',
-                'button--primary',
-                'button--lg',
-                styles.primaryButton
-              )}
-              to="#products"
+              'button',
+              'button--primary',
+              'button--lg',
+              styles.primaryButton
+            )}
+            href="#products"
             >
               Explore Products
-            </Link>
+            </a>
 
             <Link
               className={clsx(
